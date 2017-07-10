@@ -1,0 +1,2676 @@
+@font-face{ font-family: 'Exo-Black'; src:url("fonts/Exo/Exo-Black.ttf") format("opentype");}
+@font-face{ font-family: 'Exo-Light'; src:url("fonts/Exo/Exo-Light.ttf") format("opentype");}
+@font-face{ font-family: 'Exo-Italic'; src:url("fonts/Exo/Exo-Italic.ttf") format("opentype");}
+@font-face{ font-family: 'Exo-Regular'; src:url("fonts/Exo/Exo-Regular.ttf") format("opentype");}
+
+@font-face{ font-family: 'Roboto-Black'; src:url("fonts/Roboto/Roboto-Black.ttf") format("opentype");}
+@font-face{ font-family: 'Roboto-Bold'; src:url("fonts/Roboto/Roboto-Bold.ttf") format("opentype");}
+@font-face{ font-family: 'Roboto-Italic'; src:url("fonts/Roboto/Roboto-Italic.ttf") format("opentype");}
+@font-face{ font-family: 'Roboto-Light'; src:url("fonts/Roboto/Roboto-Light.ttf") format("opentype");}
+@font-face{ font-family: 'Roboto-Regular'; src:url("fonts/Roboto/Roboto-Regular.ttf") format("opentype");}
+@font-face{ font-family: 'Roboto-BlackItalic'; src:url("fonts/Roboto/Roboto-BlackItalic.ttf") format("opentype");}
+
+@font-face{ font-family: 'RobotoCondensed-Bold'; src:url("fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf") format("opentype");}
+@font-face{ font-family: 'RobotoCondensed-Italic'; src:url("fonts/Roboto_Condensed/RobotoCondensed-Italic.ttf") format("opentype");}
+@font-face{ font-family: 'RobotoCondensed-Light'; src:url("fonts/Roboto_Condensed/RobotoCondensed-Light.ttf") format("opentype");}
+@font-face{ font-family: 'RobotoCondensed-Regular'; src:url("fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf") format("opentype");}
+@font-face{ font-family: 'RobotoCondensed-BoldItalic'; src:url("fonts/Roboto_Condensed/RobotoCondensed-BoldItalic.ttf") format("opentype");}
+
+body
+{
+	font-family: "Roboto-Regular";
+	color: rgba(0,51,102,1);
+	top:0px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.contenedor{
+	width: 100%;
+	height: 1000px;
+	top:0px !important;
+	left: 0px;
+	position: absolute;
+	overflow: hidden;
+}
+
+
+/* TOP */
+.contenedor .header{
+	width: 100%;
+	height: 5%;
+	background: rgba(0,51,102,1);
+	box-shadow: 0px 0px 3px rgba(0,0,0,1);
+	overflow: hidden;
+}
+
+.contenedor .header .top{
+	width: 100%;
+	height: 70%;
+	background: rgba(0,51,102,1);
+}
+
+.contenedor .header .top .container{
+	width: 94%;
+	height: 100%;
+	color:rgba(255,255,255,1);
+	margin:0px auto;
+}
+
+.contenedor .header .top .container .imagen{
+	width: 40%;
+	height: 100%;
+	float: left;
+}
+
+.contenedor .header .top .container .imagen img{
+	margin-top: 3%;
+	width: 95%;
+	height: 85%;
+}
+
+.contenedor .header .top .container .login{
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+
+.contenedor .header .top .container .login .imagen{
+	width: 30%;
+	height: 80%;
+	float: right;
+	margin-top: 2%;
+	margin-right: 2%;
+	border-radius: 5px;
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	-o-transition:all 1s ease;
+}
+
+.contenedor .header .top .container .login .imagen img{
+	width: 100%;
+	height: 100%;
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	-o-transition:all 1s ease;
+}
+
+.contenedor .header .top .container .login .imagen:hover{
+	box-shadow: 0px 0px 1px rgba(0,0,0,1);
+	cursor: pointer;
+}
+
+.contenedor .header .top .container .login .imagen img:hover{
+	opacity: 0.8;
+}
+
+.contenedor .header .nav{
+	width: 100%;
+	height: 28%;
+	background: rgba(199,199,199,1);
+	border-bottom: 2px solid #ffcc33;
+}
+
+.contenedor .header .nav .container{
+	width: 94%;
+	height: 100%;
+	color:rgba(255,255,255,1);
+	margin:0px auto;
+	overflow: hidden;
+}
+
+.contenedor .header .nav .container .fecha{
+	width: 50%;
+	height: 100%;
+	color:rgba(0,51,102,1);
+	float: left;
+	overflow: hidden;
+	font-size: 12px;
+	padding-top: 1.5%;
+}
+
+.contenedor .header .nav .container .hora{
+	width: 50%;
+	height: 100%;
+	color:red;
+	text-align: right;
+	float: left;
+	font-size: 17px;
+	padding-top: 0.5%;
+}
+
+
+
+/* CONTENEDOR */
+.contenedor .body{
+	width: 100%;
+	height: 85%;
+	background: -webkit-linear-gradient(120deg, #134f8a, #447fb8,#134f8a);
+	background: -moz-linear-gradient(120deg, #134f8a, #447fb8,#134f8a);
+	background: -ms-linear-gradient(120deg, #134f8a, #447fb8,#134f8a);
+	background: -o-linear-gradient(120deg, #134f8a, #447fb8,#134f8a);
+	overflow: hidden;
+}
+
+.contenedor .body .interno{
+	width: 94%;
+	margin:0px auto;
+	margin-top: 3%;
+	height: 97%;
+	overflow: hidden;
+	background: rgba(199,199,199,1);
+	box-shadow: 0px 0px 5px rgba(0,0,0,1);
+}
+
+
+/* FOOTER */
+.contenedor .footer{
+	width: 100%;
+	height: 10%;
+	border-top: 2px solid rgba(255,255,255,0.3);
+	background: rgba(0,51,102,1);
+}
+
+.contenedor .footer .top{
+	width: 100%;
+	height: 80%;
+	background: rgba(0,51,102,1);
+}
+
+.contenedor .footer .top .container{
+	width: 94%;
+	height: 100%;
+	margin:0px auto;
+	font-size: 14px;
+	text-align: center;
+}
+
+.contenedor .footer .top .container .opt{
+	width: 40%;
+	height:90%;
+	margin-top: 2%;
+	float: left;
+	margin-left: 6.5%;
+	overflow: hidden;
+	font-size: 18px;
+	color:rgba(255,255,255,0.5);
+	text-align: center;
+}
+
+.contenedor .footer .top .container .opt img{
+	width: 85%;
+	height:85%;
+	padding-top: 6%;
+	padding-left: 6%;
+}
+
+.contenedor .footer .bottom{
+	width: 100%;
+	height: 20%;
+	background: orange;
+}
+
+
+.contenedor .footer .bottom .container{
+	width: 94%;
+	height: 100%;
+	margin:0px auto;
+	font-size: 14px;
+	padding-top: 2%;
+	text-align: center;
+}
+
+
+
+/* MENU DE EVENTOS O VISTAS */
+#menu_opt
+{
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    overflow:hidden;
+    padding:0px;
+    margin:0px;
+    background:rgba(0,0,0,0.5);
+    z-index:1;
+    display:none;
+}
+
+#menu_opt .contenedor_menu
+{
+	width: 90%;
+	height: 90%;
+	background: rgba(255,255,255,1);
+	box-shadow: 0px 0px 5px rgba(0,0,0,1);
+	margin: 0px auto;
+	margin-top: 10%;
+	overflow: hidden;
+}
+
+#menu_opt .contenedor_menu .top
+{
+	width: 90%;
+	height: 5%;
+	background: rgba(0,51,102,1);
+	margin: 0px auto;
+	margin-top: 5%;
+	border-radius:5px;
+	padding-top: 1%;
+	text-align: center;
+	color:rgba(255,255,255,1) !important;
+}
+
+#menu_opt .contenedor_menu .bottom
+{
+	width: 90%;
+	height: 87%;
+	margin: 0px auto;
+	margin-top: 3%;
+	
+}
+
+#menu_opt .contenedor_menu .bottom .opt
+{
+	width: 25%;
+	margin-left: 16%;
+	height: 17%;
+	margin-bottom: 5%;
+	float: left;
+	overflow: hidden;
+	font-size: 12px;
+	opacity: 0.5;
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	-o-transition:all 1s ease;
+}
+
+#menu_opt .contenedor_menu .bottom .opt:hover
+{
+	opacity: 1;
+	cursor: pointer;
+}
+
+
+#menu_opt .contenedor_menu .bottom .opt .imagen
+{
+	width: 100%;
+	height: 80%;
+	border-radius:100%;
+	overflow: hidden;
+}
+
+#menu_opt .contenedor_menu .bottom .opt .imagen img
+{
+	width: 100%;
+	height: 100%;
+}
+
+#menu_opt .contenedor_menu .bottom .opt .texto
+{
+	width: 100%;
+	height: 20%;
+	color:rgba(0,51,102,1) !important;
+	text-align: center;
+}
+
+
+/* VIEW PARA INDEX */
+
+.contenedor .body .interno .slider{
+	width: 95%;
+	height: 21%;
+	margin:0px auto;
+	overflow: hidden;
+	margin-top:3% !important;
+	background: rgba(0,51,102,1) !important;
+	color:rgba(255,255,255,1) !important;
+}
+
+.contenedor .body .interno .introduccion{
+	width: 95%;
+	height: 15%;
+	margin:0px auto;
+	overflow: hidden;
+	margin-top:3% !important;
+	background: white;
+	border-radius: 20px;
+}
+
+
+.contenedor .body .interno .introduccion .titulo_des
+{
+	width: 90%;
+	height: 13%;
+	margin-top: 2.5% !important;
+	margin: 0px auto;
+	padding-top: 2%;
+	font-family: "Roboto-Italic";
+	font-size: 22px;
+	text-align: center;
+}
+
+.contenedor .body .interno .introduccion .deta
+{
+	width: 90%;
+	height: 80%;
+	margin-bottom: 2.5%;
+	margin: 0px auto;
+	font-size: 12px;
+	color:rgba(0,0,0,0.7);
+	text-align: justify;
+}
+
+.contenedor .body .interno .personal{
+	width: 95%;
+	height: 30%;
+	margin:0px auto;
+	overflow: hidden;
+	margin-top:3% !important;
+	color:rgba(255,255,255,1) !important;
+}
+
+
+.contenedor .body .interno .personal .cumpleaos{
+	width: 100%;
+	height: 30%;
+	margin-top: 3%;
+	overflow: hidden;
+	background: rgba(255,255,255,1);
+	border-radius:10px;
+}
+
+.contenedor .body .interno .personal .cumpleaos .containerSlider
+{
+	width: 100%;
+	height: 100%;
+}
+
+.contenedor .body .interno .personal .cumpleaos .containerSlider .img
+{
+	width: 100%;
+	height: 30%;
+	overflow: hidden;
+	font-family: "Roboto-BlackItalic";
+	color:rgba(0,51,102,1);
+	font-size: 18px;
+	padding: 0px;
+}
+
+.contenedor .body .interno .personal .cumpleaos .containerSlider .img .texto 
+{
+	width: 80%;
+	height: 100%;
+	overflow: hidden;
+	float: left;
+	text-align: center;
+	padding-top: 2%;
+}
+
+.contenedor .body .interno .personal .cumpleaos .containerSlider .img  .logo 
+{
+	width: 20%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	text-align:center;
+}
+
+.contenedor .body .interno .personal .cumpleaos .containerSlider .img .logo img
+{
+	width: 70%;
+	padding-top: 2%;
+	height: 90%;
+}
+
+
+.contenedor .body .interno .personal .cumpleaos .containerSlider .data
+{
+	width: 100%;
+	height: 70%;
+	overflow: hidden;
+}
+
+.contenedor .body .interno .personal .cumpleaos .containerSlider .data .photo
+{
+	width: 35%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+.contenedor .body .interno .personal .cumpleaos .containerSlider .data .photo img
+{
+	width: 70%;
+	height: 80%;
+	border-radius: 100%;
+	margin-top: 5%;
+	margin-left: 10%;
+	border:4px solid rgba(255,255,255,1);
+}
+
+.contenedor .body .interno .personal .cumpleaos .containerSlider .data .descrip
+{
+	width: 65%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	color:rgba(0,0,0,0.4);
+	font-size: 14px;
+	padding-top: 5%;
+	font-family: "Roboto-Italic";
+}
+
+.contenedor .body .interno .personal .cumpleaos .containerSlider .data .descrip span
+{
+	text-align: center;
+
+	color:rgba(0,0,0,0.4);
+	font-size: 17px;
+	font-family: "Roboto-Black";
+}
+
+
+
+.contenedor .body .interno .personal .nuevos{
+	width: 100%;
+	height: 30%;
+	margin-top: 3%;
+	overflow: hidden;
+	background: rgba(255,255,255,1);
+	border-radius:10px;
+}
+
+.contenedor .body .interno .personal .nuevos .containerSlider2
+{
+	width: 100%;
+	height: 100%;
+}
+
+.contenedor .body .interno .personal .nuevos .containerSlider2 .img
+{
+	width: 100%;
+	height: 30%;
+	overflow: hidden;
+	font-family: "Roboto-BlackItalic";
+	color:rgba(0,51,102,1);
+	font-size: 18px;
+	padding: 0px;
+}
+
+.contenedor .body .interno .personal .nuevos .containerSlider2 .img .texto 
+{
+	width: 80%;
+	height: 100%;
+	overflow: hidden;
+	float: left;
+	text-align: center;
+	padding-top: 2%;
+}
+
+.contenedor .body .interno .personal .nuevos .containerSlider2 .img  .logo 
+{
+	width: 20%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	text-align:center;
+}
+
+.contenedor .body .interno .personal .nuevos .containerSlider2 .img .logo img
+{
+	width: 70%;
+	padding-top: 2%;
+	height: 90%;
+}
+
+
+.contenedor .body .interno .personal .nuevos .containerSlider2 .data
+{
+	width: 100%;
+	height: 70%;
+	overflow: hidden;
+}
+
+.contenedor .body .interno .personal .nuevos .containerSlider2 .data .photo
+{
+	width: 35%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+.contenedor .body .interno .personal .nuevos .containerSlider2 .data .photo img
+{
+	width: 70%;
+	height: 80%;
+	border-radius: 100%;
+	margin-top: 5%;
+	margin-left: 10%;
+	border:4px solid rgba(255,255,255,1);
+}
+
+.contenedor .body .interno .personal .nuevos .containerSlider2 .data .descrip
+{
+	width: 65%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	color:rgba(0,0,0,0.4);
+	font-size: 14px;
+	padding-top: 5%;
+	font-family: "Roboto-Italic";
+}
+
+.contenedor .body .interno .personal .nuevos .containerSlider2 .data .descrip span
+{
+	text-align: center;
+
+	color:rgba(0,0,0,0.4);
+	font-size: 17px;
+	font-family: "Roboto-Black";
+}
+
+
+.contenedor .body .interno .personal .nacimientos{
+	width: 100%;
+	height: 30%;
+	margin-top: 3%;
+	overflow: hidden;
+	background: rgba(255,255,255,1);
+	border-radius:10px;
+}
+
+
+.contenedor .body .interno .personal .nacimientos .containerSlider3
+{
+	width: 100%;
+	height: 100%;
+}
+
+.contenedor .body .interno .personal .nacimientos .containerSlider3 .img
+{
+	width: 100%;
+	height: 30%;
+	overflow: hidden;
+	font-family: "Roboto-BlackItalic";
+	color:rgba(0,51,102,1);
+	font-size: 18px;
+	padding: 0px;
+}
+
+.contenedor .body .interno .personal .nacimientos .containerSlider3 .img .texto 
+{
+	width: 80%;
+	height: 100%;
+	overflow: hidden;
+	float: left;
+	text-align: center;
+	padding-top: 2%;
+}
+
+.contenedor .body .interno .personal .nacimientos .containerSlider3 .img  .logo 
+{
+	width: 20%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	text-align:center;
+}
+
+.contenedor .body .interno .personal .nacimientos .containerSlider3 .img .logo img
+{
+	width: 70%;
+	padding-top: 2%;
+	height: 90%;
+}
+
+
+.contenedor .body .interno .personal .nacimientos .containerSlider3 .data
+{
+	width: 100%;
+	height: 70%;
+	overflow: hidden;
+}
+
+.contenedor .body .interno .personal .nacimientos .containerSlider3 .data .photo
+{
+	width: 35%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+.contenedor .body .interno .personal .nacimientos .containerSlider3 .data .photo img
+{
+	width: 70%;
+	height: 80%;
+	border-radius: 100%;
+	margin-top: 5%;
+	margin-left: 10%;
+	border:4px solid rgba(255,255,255,1);
+}
+
+.contenedor .body .interno .personal .nacimientos .containerSlider3 .data .descrip
+{
+	width: 65%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	color:rgba(0,0,0,0.4);
+	font-size: 14px;
+	padding-top: 5%;
+	font-family: "Roboto-Italic";
+}
+
+.contenedor .body .interno .personal .nacimientos .containerSlider3 .data .descrip span
+{
+	text-align: center;
+
+	color:rgba(0,0,0,0.4);
+	font-size: 17px;
+	font-family: "Roboto-Black";
+}
+
+
+.contenedor .body .interno .accesos_directos{
+	width: 95%;
+	height: 30%;
+	margin:0px auto;
+	overflow: hidden;
+	margin-top:3% !important;
+	overflow: hidden;
+}
+
+
+/* ATAJOS 1  */
+.contenedor .body .interno .accesos_directos .atajos1
+{
+	width: 100%;
+	height: 20%;
+	float: left;
+	margin: 1.5% 0% 1.5% 1.5%;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: 55% 110%;
+	-webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-ms-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+}
+
+
+.contenedor .body .interno .accesos_directos .atajos1 .atj-opt
+{
+	width: 80%;
+	height: 100%;
+	background: #00CCFF;
+	margin-left: 50%;
+	opacity: 1;
+	color:rgba(255,255,255,1);
+	font-size: 18px;
+	font-family: "Roboto-BlackItalic";
+	-webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-ms-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+	-webkit-transform: skew(-20deg,180deg);
+	-moz-transform: skew(-20deg,180deg);
+	-ms-transform: skew(-20deg,180deg);
+	-o-transform: skew(-20deg,180deg);
+}
+
+.contenedor .body .interno .accesos_directos .atajos1 .atj-opt .texto
+{
+	width: 100%;
+	height: 100%;
+	background: rgba(9,173,249,1);
+	margin-left: 1%;
+	color:rgba(255,255,255,1);
+	font-size: 18px;
+	padding-top: 6%;
+	padding-left: 6%;
+	font-family: "Roboto-BlackItalic";
+}
+
+.contenedor .body .interno .accesos_directos .atajos1 .atj-opt .texto .span
+{
+	width: 53%;
+	text-align: center;
+	-webkit-transform: skew(20deg,180deg) !important;
+	-moz-transform: skew(20deg,180deg) !important;
+	-ms-transform: skew(20deg,180deg) !important;
+	-o-transform: skew(20deg,180deg) !important;
+
+	-webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-ms-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+}
+
+.contenedor .body .interno .accesos_directos .atajos1 .atj-opt:hover
+{
+	margin-left: 45%;
+	cursor: pointer;
+	padding-left: 0px;
+}
+
+.contenedor .body .interno .accesos_directos .atajos1 .atj-opt .texto .span:hover 
+{
+	opacity: 0.9;
+	margin-left: 2.5%;
+	cursor: pointer;
+}
+
+
+/* ATAJOS 2 */
+.contenedor .body .interno .accesos_directos .atajos1 .atj-opt2
+{
+	width: 80%;
+	height: 100%;
+	background: rgba(252,172,51,1);
+	margin-left: 50%;
+	opacity: 1;
+	color:rgba(255,255,255,1);
+	font-size: 18px;
+	font-family: "Roboto-BlackItalic";
+	-webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-ms-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+	-webkit-transform: skew(-20deg,180deg);
+	-moz-transform: skew(-20deg,180deg);
+	-ms-transform: skew(-20deg,180deg);
+	-o-transform: skew(-20deg,180deg);
+}
+
+.contenedor .body .interno .accesos_directos .atajos1 .atj-opt2 .texto
+{
+	width: 100%;
+	height: 100%;
+	background: rgba(252,172,51,1);
+	margin-left: 1%;
+	color:rgba(255,255,255,1);
+	font-size: 18px;
+	padding-top: 5%;
+	padding-left: 6%;
+	font-family: "Roboto-BlackItalic";	
+}
+
+.contenedor .body .interno .accesos_directos .atajos1 .atj-opt2 .texto .span
+{
+	width: 53%;
+	text-align: center;
+	-webkit-transform: skew(20deg,180deg) !important;
+	-moz-transform: skew(20deg,180deg) !important;
+	-ms-transform: skew(20deg,180deg) !important;
+	-o-transform: skew(20deg,180deg) !important;
+
+	-webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-ms-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+}
+
+.contenedor .body .interno .accesos_directos .atajos1 .atj-opt2:hover
+{
+	margin-left: 45%;
+	cursor: pointer;
+	padding-left: 0px;
+}
+
+.contenedor .body .interno .accesos_directos .atajos1 .atj-opt2 .texto .span:hover 
+{
+	opacity: 0.9;
+	margin-left: 2.5%;
+	cursor: pointer;
+}
+
+
+/* ATAJOS 3 */
+.contenedor .body .interno .accesos_directos .atajos1 .atj-opt3
+{
+	width: 80%;
+	height: 100%;
+	background: rgba(109,187,14,0.5);
+	margin-left: 50%;
+	opacity: 1;
+	color:rgba(255,255,255,1);
+	font-size: 18px;
+	font-family: "Roboto-BlackItalic";
+	-webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-ms-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+	-webkit-transform: skew(-20deg,180deg);
+	-moz-transform: skew(-20deg,180deg);
+	-ms-transform: skew(-20deg,180deg);
+	-o-transform: skew(-20deg,180deg);
+}
+
+.contenedor .body .interno .accesos_directos .atajos1 .atj-opt3 .texto
+{
+	width: 100%;
+	height: 100%;
+	background: rgba(109,187,14,1);
+	margin-left: 1%;
+	color:rgba(255,255,255,1);
+	font-size: 18px;
+	padding-top: 5%;
+	padding-left: 10%;
+	font-family: "Roboto-BlackItalic";	
+}
+
+.contenedor .body .interno .accesos_directos .atajos1 .atj-opt3 .texto .span
+{
+	width: 70%;
+	margin-left: 3%;
+	-webkit-transform: skew(20deg,180deg) !important;
+	-moz-transform: skew(20deg,180deg) !important;
+	-ms-transform: skew(20deg,180deg) !important;
+	-o-transform: skew(20deg,180deg) !important;
+
+	-webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-ms-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+}
+
+.contenedor .body .interno .accesos_directos .atajos1.atj-opt3:hover
+{
+	margin-left: 45%;
+	cursor: pointer;
+	padding-left: 0px;
+}
+
+.contenedor .body .interno .accesos_directos .atajos1 .atj-opt3 .texto .span:hover 
+{
+	opacity: 0.9;
+	margin-left: 5%;
+	cursor: pointer;
+}
+
+/* ATAJOS 4 */
+.contenedor .body .interno .accesos_directos .atajos1 .atj-opt4
+{
+	width: 80%;
+	height: 100%;
+	background:rgba(255,0,0,0.5);
+	margin-left: 50%;
+	opacity: 1;
+	color:rgba(255,255,255,1);
+	font-size: 18px;
+	font-family: "Roboto-BlackItalic";
+	-webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-ms-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+	-webkit-transform: skew(-20deg,180deg);
+	-moz-transform: skew(-20deg,180deg);
+	-ms-transform: skew(-20deg,180deg);
+	-o-transform: skew(-20deg,180deg);
+}
+
+.contenedor .body .interno .accesos_directos .atajos1 .atj-opt4 .texto
+{
+	width: 70%;
+	height: 100%;
+	background:red;
+	margin-left: 1%;
+	color:rgba(255,255,255,1);
+	font-size: 18px;
+	padding-top: 3.5%;
+	padding-left: 6%;
+	text-align: center;
+	font-family: "Roboto-BlackItalic";	
+}
+
+.contenedor .body .interno .accesos_directos .atajos1 .atj-opt4 .texto .span
+{
+	width: 70%;
+	margin-left: 3%;
+	text-align: center;
+	line-height: 19px;
+	-webkit-transform: skew(20deg,180deg) !important;
+	-moz-transform: skew(20deg,180deg) !important;
+	-ms-transform: skew(20deg,180deg) !important;
+	-o-transform: skew(20deg,180deg) !important;
+
+	-webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-ms-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+}
+
+.contenedor .body .interno .accesos_directos .atajos1 .atj-opt4:hover
+{
+	margin-left: 45%;
+	cursor: pointer;
+	padding-left: 0px;
+}
+
+.contenedor .body .interno .accesos_directos .atajos1 .atj-opt4 .texto .span:hover 
+{
+	opacity: 0.9;
+	margin-left: 5%;
+	cursor: pointer;
+}
+
+
+/*------------------------------------------------------------------
+*-*-*-*-*-*-*- VIEW FILE OF FORMAT EXPORT FOR PROCESS -*-*-*-*-*-*-*
+--------------------------------------------------------------------*/
+
+/* VIEW OF FILE FORMAT */
+
+.right-content
+{
+	margin: 0px auto;
+	height: 98%;
+	width: 98%;
+	margin-top: 1.5%;
+	overflow: hidden;
+}
+
+.right-content .text
+{
+	font-family: "Roboto-Italic";
+	font-size: 12px;
+	margin: 0px auto;
+	height: 1.5%;
+	width: 100%;
+	border-bottom:1px solid rgba(0,51,102,1);
+	color: rgba(0,51,102,1);
+}
+
+.right-content .title
+{
+	font-family: "Roboto-Italic";
+	font-size: 30px;
+	top: 0px;
+	margin: 0px auto;
+	height: 5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	width: 100%;
+	text-align: center;
+	color: rgba(28,55,97,1);
+}
+
+.right-content .element
+{
+	margin: 0px auto;
+	height: 92.5%;
+	width: 100%;
+}
+
+.right-content .element .opt1
+{
+	float: left;
+	height: 15%;
+	width: 50%;
+	margin-top: 5%;
+}
+
+.right-content .element .image
+{
+	margin: 0px auto;
+	width: 100%;
+	height: 60%;
+}
+
+.right-content .element .image .circle
+{
+	margin:0px auto;
+	width: 65%;
+	height: 90%;
+	border-radius:100%;
+	border:2px solid rgba(0,51,102,1);
+}
+
+.right-content .element .image .circle .circle-interno
+{
+	margin:0px auto;
+	width: 88%;
+	height: 89%;
+	margin-top: 4%;
+	border-radius:100%;
+	border:2px solid rgba(125,184,197,1);
+	opacity: 0.5;
+	background: rgba(255,255,255,1);
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	-o-transition:all 1s ease;
+	overflow: hidden;
+}
+
+.right-content .element .image .circle .circle-interno img
+{
+	width: 95%;
+	height: 95%;
+}
+
+.right-content .element .image .circle .circle-interno:hover
+{
+	opacity: 1;
+	cursor: pointer;
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+}
+
+.right-content .element .descrip
+{
+	margin: 0px auto;
+	width: 100%;
+	height: 40%;
+	color: rgba(0,51,102,1);
+	text-align: center;
+	font-family: "Roboto-Regular";
+	font-size: 17px;
+}
+
+
+
+/*------------------------------------------------------------------
+*-*-*-*-*-*-*- VIEW  QUERY OF NUMBERS PHONE BY EMPLOY -*-*-*-*-*-*-*
+--------------------------------------------------------------------*/
+/* 	VIEW PHONE */
+.right-content .element .pagination
+{
+	width: 100%;
+	height: 5%;
+	text-align: right;
+	margin-top: 2%;
+	font-family: "Roboto-Regular";
+	font-size: 13px;
+	overflow: hidden;	
+}
+
+.right-content .element .pagination img
+{
+	width: 3%;
+	height: 20%;
+	text-align: right;
+	margin-top: 2%;
+	font-family: "Roboto-Regular";
+	font-size: 13px;	
+}
+
+.right-content .element table
+{
+	margin: 0px auto;
+	text-align: center;
+	font-family: "Roboto-Regular";
+	font-size: 10px;
+	word-break: break-all;
+}
+
+.right-content .element .search
+{
+	width: 100%;
+	margin: 0px auto;
+	text-align: center;
+	height: 5%;
+}
+
+.right-content .element .search input[type='text']
+{
+	border-radius: 5%;
+	border:none;
+	padding: 1% 2% 1% 2%;
+	box-shadow: 0px 0px 5px rgba(0,0,0,1);
+	background-image: url('../themes/images/lupa.png');
+	background-position: 96% center;
+	background-repeat: no-repeat;
+	background-size: 10% 60%;
+	color:rgba(0,51,102,1);
+	font-family: "Roboto-Regular";
+	font-size: 20px;
+}
+
+.right-content .element table th
+{
+	color: rgba(255,255,255,1);
+	background: rgba(0,51,102,1);
+	width: 15%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.right-content .element table td
+{
+	color: rgba(0,51,102,1);
+	background: rgba(255,255,255,1);
+	width: 15%;
+	font-size: 9px;
+	margin: 0px;
+	padding: 2% 0px 2% 0px;
+	border:none;
+}
+
+
+
+
+
+/*------------------------------------------------------------------
+*-*-*-*-*-*-*-    VISTA   PERSONALIZADA   CUMPLEAÑOS  -*-*-*-*-*-*-*
+--------------------------------------------------------------------*/
+.right-content .element .banner-birthday
+{
+	width: 100%;
+	height: 20%;
+}
+
+.right-content .element .banner-birthday img
+{
+	width: 90%;
+	height: 90%;
+	box-shadow: 0px 0px 10px rgba(199,199,199,1);
+	border-radius: 2%;
+	margin-left: 5%;
+}
+
+
+.right-content .element .lista-birthday
+{
+	width: 90%;
+	margin: 0px auto;
+	height: 80%;
+	overflow: scroll;
+}
+
+.right-content .element .lista-birthday .detalle
+{
+	width: 95%;
+	height: 15%;
+	float: left;
+	overflow: hidden;
+	background: rgba(255,255,255,1);
+	margin: 1%;
+	margin-left: 3%;
+	border-radius: 3%;
+	opacity: 0.5;
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	-o-transition:all 1s ease;
+}
+
+.right-content .element .lista-birthday .detalle:hover
+{
+	opacity: 1;
+}
+
+.right-content .element .lista-birthday .detalle .photo
+{
+	width: 40%;
+	height: 100%;
+	float: left;
+}
+
+.right-content .element .lista-birthday .detalle .photo img
+{
+	width: 80%;
+	height: 60%;
+	border-radius: 100%;
+	border:1px solid rgba(0,51,102,1);
+	margin-top: 20%;
+	margin-left: 8%;
+}
+
+.right-content .element .lista-birthday .detalle .descrip
+{
+	width: 60%;
+	height: 100%;
+	float: left;
+	font-size: 11px;
+	text-align: left;
+	color: rgba(0,51,102,1);
+	overflow: hidden;
+}
+
+.right-content .element .lista-birthday .detalle .descrip form
+{
+	width: 90%;
+	height: 100%;
+	margin: 0px auto;
+	margin-top: 15%;
+	color:rgba(0,0,0,0.8);
+}
+
+.right-content .element .lista-birthday .detalle .descrip form span
+{
+	font-family: "Roboto-BlackItalic";
+	color:rgba(0,51,102,1);
+	font-size: 11px;
+}
+
+
+.right-content .element .lista-birthday .detalle2
+{
+	width: 45%;
+	height: 20%;
+	float: left;
+	overflow: hidden;
+	background-image: url('../themes/images/hoy.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin: 1%;
+	margin-left: 3%;
+	border-radius: 3%;
+	opacity: 0.5;
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	-o-transition:all 1s ease;
+}
+
+.right-content .element .lista-birthday .detalle2:hover
+{
+	opacity: 1;
+}
+
+.right-content .element .lista-birthday .detalle2 .photo
+{
+	width: 40%;
+	height: 100%;
+	float: left;
+}
+
+.right-content .element .lista-birthday .detalle2 .photo img
+{
+	width: 80%;
+	height: 60%;
+	border-radius: 100%;
+	border:1px solid rgba(0,51,102,1);
+	margin-top: 20%;
+	margin-left: 8%;
+}
+
+.right-content .element .lista-birthday .detalle2 .descrip
+{
+	width: 60%;
+	height: 100%;
+	float: left;
+	font-size: 11px;
+	text-align: left;
+	color: rgba(0,51,102,1);
+	overflow: hidden;
+}
+
+.right-content .element .lista-birthday .detalle2 .descrip form
+{
+	width: 90%;
+	height: 100%;
+	margin: 0px auto;
+	margin-top: 15%;
+	color:rgba(0,0,0,0.8);
+}
+
+.right-content .element .lista-birthday .detalle2 .descrip form span
+{
+	font-family: "Roboto-BlackItalic";
+	color:rgba(0,51,102,1);
+	font-size: 11px;
+}
+
+
+
+
+
+
+/*------------------------------------------------------------------
+*-*-*-*-*-*-*- VIEW PARA COMEDOR DE CADA DIA PERSONAL -*-*-*-*-*-*-*
+--------------------------------------------------------------------*/
+ .right-content .title p
+{
+	font-size: 20px;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	color: rgba(67,137,200,1);
+}
+
+.right-content .element .content
+{
+	width: 100%;
+	height: 100%;
+	margin-top: 2%;
+}
+
+.right-content .element .content table
+{
+	width: 100%;
+	height: 1%;
+	word-break: break-all;
+}
+
+.right-content .element .content table th
+{
+	background: rgba(150,150,150,1);
+	color:rgba(255,255,255,1);
+
+}
+
+.right-content .element .content table .th
+{
+	background: orange;
+	color:rgba(255,255,255,1);
+}
+
+.right-content .element .content table .clase-dia
+{
+	font-family: "Roboto-Regular";
+	color: orange;
+}
+
+.right-content .element .content table td
+{
+	color: rgba(0,51,102,1);
+	background: rgba(255,255,255,1);
+	width: 15%;
+	font-size: 12px;
+	padding: 0px;
+	border:none;
+	padding: 2.2% 0% 2.2% 0%;
+	text-align: center;
+	border-collapse: none;
+}
+
+.right-content .element .content .img
+{
+	width: 100%;
+	height: 6%;
+	overflow: hidden;
+}
+
+.right-content .element .content .img img
+{
+	width: 100%;
+	height: 100%;
+}
+
+.right-content .element .content .img .text
+{
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	margin-top: -15%;
+	font-family: "Roboto-BlackItalic";
+	color:rgba(255,255,255,1);
+	font-size: 30px;
+	padding-left: 3%;
+}
+
+.right-content .element .content .img .textright
+{
+	width: 97%;
+	height: 100%;
+	z-index: 1;
+	margin-top: -15%;
+	font-family: "Roboto-BlackItalic";
+	color:rgba(255,255,255,1);
+	font-size: 30px;
+	text-align: right;
+}
+
+.right-content .element .content .img2
+{
+	width: 100%;
+	height: 3%;
+	background: rgba(157,197,52,1);
+	font-family: "Roboto-BlackItalic";
+	text-align: center;
+	color:rgba(255,255,255,1);
+	font-size: 22px;
+	padding-top: 3%;
+}
+
+.right-content .element .mensaje
+{
+	width: 100%;
+	height: 5%;
+	font-family: "Roboto-Italic";
+	text-align: center;
+	font-size: 25px;
+	color: rgba(67,137,200,1);	
+}
+
+
+
+
+/*------------------------------------------------------------------
+*-*-*-*-*-*-*-   VIEW   PARA  AREAS  DE  LA  EMPRESA  -*-*-*-*-*-*-*
+--------------------------------------------------------------------*/
+
+.right-content .element .listado-area
+{
+	width: 85%;
+	height: 95%;
+	background: 
+	text-align: right;
+	margin: 0px auto;
+	overflow: hidden;
+}
+
+.right-content .element .listado-area .area
+{
+	width: 50%;
+	height: 13%;
+	float: left;
+	text-align: right;
+	margin: 0px auto;
+	overflow: hidden;
+	text-align: center;
+	font-family:"Roboto-Regular";
+	font-size: 18px;
+	opacity: 0.5;
+	margin-top: 5%;
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	-o-transition:all 1s ease;
+	color: rgba(0,51,102,1);
+}
+
+
+.right-content .element .listado-area .area img
+{
+	width: 70%;
+	height: 70%;
+	margin-top: 3%;
+	text-align: center;
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	-o-transition:all 1s ease;	
+	border-radius: 100%;
+}
+
+.right-content .element .listado-area .area img:hover
+{
+	width: 75%;
+	height: 75%;
+	opacity: 1;
+}
+
+.right-content .element .listado-area .area:hover
+{
+	opacity: 1;
+}
+
+
+/*------------------------------------------------------------------
+*-*-*-*-*-*-*-  VIEW PARA  SUB-AREAS DE  LA  EMPRESA  -*-*-*-*-*-*-*
+--------------------------------------------------------------------*/
+
+.right-content .title-subarea
+{
+	font-family: "Roboto-Italic";
+	font-size: 35px;
+	top: 0px;
+	margin: 0px auto;
+	height: 3%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	width: 100%;
+	text-align: left;
+	color: rgba(28,55,97,1);
+}
+
+.right-content .element .listado-sub
+{
+	width: 100%;
+	height: 100%;
+	text-align: right;
+	margin: 0px auto;
+	overflow: hidden;
+}
+
+.right-content .element .listado-sub .sub-area
+{
+	width: 100%;
+	height: 15%;
+	border-bottom: 1px solid rgba(0,51,102,1);
+	border-top: 1px solid rgba(0,51,102,1);
+	overflow: hidden;
+	background: rgba(255,255,255,1);
+}
+
+.right-content .element .listado-sub .sub-area .title
+{
+	width: 100%;
+	height: 20%;
+	text-align: center;
+	font-family: "Roboto-Light";
+	font-size: 30px;
+}
+
+.right-content .element .listado-sub .sub-area .table
+{
+	width: 100%;
+	height: 80%;
+	text-align: center;
+	font-family: "Roboto-Light";
+	font-size: 30px;
+	overflow: scroll;
+}
+
+.right-content .element .listado-sub .sub-area .table table td
+{
+	width: 33%;
+	float: left;
+	background: none;
+	word-break: break-all;
+}
+
+.right-content .element .listado-sub .sub-area .table table td input[type='submit']
+{
+	width: 95%;
+	margin: 0px auto;
+	background: rgba(0,51,102,1);
+	border: none;
+	padding: 3% 0% 3% 0%;
+	color:rgba(255,255,255,1);
+	font-family: "Roboto-Italic";
+	font-size: 15px;
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	-o-transition:all 1s ease;	
+}
+
+.right-content .element .listado-sub .sub-area .table table td input[type='button']
+{
+	width: 95%;
+	margin: 0px auto;
+	background: rgba(0,51,102,1);
+	border: none;
+	padding: 3% 0% 3% 0%;
+	color:rgba(255,255,255,1);
+	font-family: "Roboto-Italic";
+	font-size: 15px;
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	-o-transition:all 1s ease;	
+}
+
+
+.right-content .element .listado-sub .sub-area .table table td input[type='submit']:hover
+{
+	box-shadow: 0px 0px 10px rgba(0,51,102,1);
+	background: rgba(0,51,102,0.2);
+	color: rgba(0,51,102,1);
+	cursor: pointer;
+}
+
+.right-content .element .listado-sub .sub-area .table table td input[type='button']:hover
+{
+	box-shadow: 0px 0px 10px rgba(0,51,102,1);
+	background: rgba(0,51,102,0.2);
+	color: rgba(0,51,102,1);
+	cursor: pointer;
+}
+
+
+.right-content .element .listado-sub .vista_employ_area
+{
+	width: 100%;
+	height: 100%;
+	overflow: scroll;
+}
+
+.right-content .element .listado-sub .vista_employ_area .emp_deta
+{
+	width: 90%;
+	height: 8%;
+	margin: 0px auto;
+	border-bottom:1px solid rgba(0,51,102,1);
+	overflow: hidden;
+}
+
+.right-content .element .listado-sub .vista_employ_area .emp_deta .imagen
+{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+
+.right-content .element .listado-sub .vista_employ_area .emp_deta .imagen .circle
+{
+	width: 80%;
+	height: 80%;
+	border-radius: 100%;
+	border:2px solid orange;
+	margin: 0px auto;
+	margin-top: 10%;
+}
+
+.right-content .element .listado-sub .vista_employ_area .emp_deta .imagen .circle img
+{
+	width: 90%;
+	height: 90%;
+	border-radius: 100%;
+	border:1.5px solid rgba(0,51,102,1);
+	margin-top: 4%;
+	margin-right: 4%;
+}
+
+.right-content .element .listado-sub .vista_employ_area .emp_deta .descrip
+{
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+
+.right-content .element .listado-sub .vista_employ_area .emp_deta .descrip table
+{
+	width: 80%;
+	height: 50% !important;
+	margin: 0px auto;
+	overflow: hidden;
+	text-align: left;
+	margin-top: 4%;
+	word-break: break-all;
+}
+
+.right-content .element .listado-sub .vista_employ_area .emp_deta .descrip table th
+{
+	color: rgba(0,51,102,1);
+	font-family: "Roboto-Black";
+	background: none;
+	border-top: 1px solid rgba(199,199,199,0.7);
+	overflow: hidden;
+}
+
+.right-content .element .listado-sub .vista_employ_area .emp_deta .descrip table td
+{
+	color: rgba(0,51,102,1);
+	font-family: "Roboto-Regular";
+	background: none;
+	padding: 0px;
+	overflow: hidden;
+}
+
+
+.right-content .element .listado-sub .pagination
+{
+	width: 100%;
+	height: 5%;
+	margin-top: 2%;
+}
+
+
+
+/*------------------------------------------------------------------
+*-*-*-*-*-*-*- VIEW PARA VERIFICAR VACACIONES VIGENTE -*-*-*-*-*-*-*
+--------------------------------------------------------------------*/
+.pag-din{
+	width:100%; 
+	height:40px;
+	overflow: hidden;
+	color:rgba(0,51,102,1);
+	font-family: "Roboto-Regular";
+}
+
+
+
+.pag-din img{
+	padding-left: 1%;
+	overflow: :hidden;
+	padding-top:2%; 
+	width: 2% !important;
+	height: 40% !important;
+	float:left;
+	cursor: pointer;
+}
+
+/* VIEW VACACIONES  */
+.right-content .element .banner
+{
+	margin: 0px auto;
+	width: 100%;
+	height: 13%;
+	overflow: hidden;
+	font-family: "Roboto-Italic";
+	font-size: 25px;
+	color:rgba(0,51,102,1);
+	text-align: center;
+	background-image: url('../themes/images/banner.png');
+	background-size: 100% 100%;
+}
+
+.right-content .element .listado
+{
+	margin: 0px auto;
+	width: 100%;
+	height: 86%;
+	overflow: hidden;
+	color:rgba(0,51,102,1);
+	text-align: center;
+}
+
+.right-content .element .opciones
+{
+	margin: 0px auto;
+	width: 100%;
+	height: 5%;
+	background: -webkit-linear-gradient(top, #ffcc33, #efb628);
+	background: -moz-linear-gradient(top, #ffcc33, #efb628);
+	background: -ms-linear-gradient(top, #ffcc33, #efb628);
+	background: -o-linear-gradient(top, #ffcc33, #efb628);
+	overflow: hidden;
+	color:rgba(0,51,102,1);
+	text-align: center;
+}
+
+
+.right-content .element .opciones input[type='button']
+{
+	margin: 0px auto;
+	width: 43%;
+	height: 60%;
+	margin-right: 3%;
+	margin-left: 3%;
+	margin-top: 1.5%;
+	background: rgba(0,51,102,1);
+	color:rgba(255,255,255,1);
+	text-align: center;
+	border-radius:3px;
+	font-size: 14px;
+	border:none;
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	-o-transition:all 1s ease;
+}
+
+.right-content .element .opciones input[type='button']:hover
+{
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+	background: rgba(199,199,199,1);
+	color:rgba(0,51,102,1);
+	cursor: pointer;
+}
+
+.right-content .element .listado .vista_employ
+{
+	width: 100%;
+	height: 100%;
+	overflow: scroll;
+	overflow-x:hidden;
+}
+
+.right-content .element .listado .vista_employ .emp_deta
+{
+	width: 90%;
+	height: 10%;
+	margin: 0px auto;
+	border-bottom:1px solid rgba(0,51,102,1);
+	overflow: hidden;
+}
+
+.right-content .element .listado .vista_employ .emp_deta .imagen
+{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+
+.right-content .element .listado .vista_employ .emp_deta .imagen .circle
+{
+	width: 80%;
+	height: 80%;
+	border-radius: 100%;
+	border:2px solid orange;
+	margin: 0px auto;
+	margin-top: 13%;
+}
+
+.right-content .element .listado .vista_employ .emp_deta .imagen .circle img
+{
+	width: 90%;
+	height: 90%;
+	border-radius: 100%;
+	border:1.5px solid rgba(0,51,102,1);
+	margin-top: 4.5%;
+	margin-right: 0%;
+}
+
+.right-content .element .listado .vista_employ .emp_deta .descrip
+{
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+
+.right-content .element .listado .vista_employ .emp_deta .descrip table
+{
+	width: 90%;
+	height: 50% !important;
+	margin: 0px auto;
+	overflow: hidden;
+	text-align: left;
+	word-break: break-all;
+}
+
+.right-content .element .listado .vista_employ .emp_deta .descrip table th
+{
+	color: rgba(0,51,102,1);
+	font-family: "Roboto-Black";
+	background: none;
+	border-top: 1px solid rgba(199,199,199,0.7);
+}
+
+.right-content .element .listado .vista_employ .emp_deta .descrip table td
+{
+	color: rgba(0,51,102,1);
+	font-family: "Roboto-Regular";
+	background: none;
+	padding: 0px;
+
+}
+
+
+.right-content .element .listado .pagination
+{
+	width: 100%;
+	height: 5%;
+	margin-top: 2%;
+}
+
+.right-content .element .listado .pagination
+{
+	width: 100%;
+	height: 10%;
+	margin-top: 2%;
+	background: red;
+}
+
+
+/*------------------------------------------------------------------
+*-*-*-*-*-*-*- POPUD PARA GENERAR VACACIONES PERSONAL -*-*-*-*-*-*-*
+--------------------------------------------------------------------*/
+
+/* PERSONALIZACION DE CONSULTA DE VACACIONES */
+.popud_consul
+{
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    overflow:hidden;
+    padding:0px;
+    margin:0px;
+    background:rgba(0,0,0,0.5);
+    z-index:999;
+    font-family: "Roboto-Regular";
+    overflow: hidden;
+    display: none;
+}
+.popud_consul .mensaje
+{
+	background:white;
+	margin: 0px auto;
+	width: 400px;
+	height: 150px;
+	border-radius:10px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+	margin-top: 30%;
+	border:1px solid rgba(199,199,199,1);
+	overflow: hidden;
+}
+.popud_consul .mensaje .header
+{
+	background:rgba(0,51,102,1);
+	margin: 0px auto;
+	width: 100%;
+	height: 25%;
+	text-align: center;
+	color:rgba(199,199,199,1);
+	font-size: 18px;
+	padding-top: 2%;
+	border-bottom:1px solid rgba(0,0,0,0.5);
+}
+.popud_consul .mensaje .accion
+{
+	margin: 0px auto;
+	width: 100%;
+	height: 70%;
+	color:rgba(199,199,199,1);
+	padding-top: 2%;
+	border-bottom:1px solid rgba(0,0,0,0.5);
+}
+.popud_consul .mensaje .accion table
+{
+	width: 90%;
+	margin: 0px auto;
+	height: 70%;
+	overflow: hidden;
+	font-size: 13px !important;
+	word-break: break-all;
+}
+
+.popud_consul .mensaje .accion table input[type="text"]
+{
+	margin: 0px auto;
+	width: 80%;
+	height: 35%;
+	color:rgba(0,51,102,1);
+	border-radius:5px;
+	border:1px solid rgba(0,0,0,0.5);
+	font-size: 14px;
+}
+.popud_consul .mensaje .accion table input[type="button"]
+{
+	margin: 0px auto;
+	width: 120%;
+	float: right;
+	height: 45%;
+	background: rgba(199,199,199,1);
+	color:rgba(0,51,102,1);
+	border-radius: 5px;
+	border: none;
+	text-align: center;
+	border-radius:3px;
+	font-size: 14px;
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	-o-transition:all 1s ease;
+}
+.popud_consul .mensaje .accion table input[type="button"]:hover
+{
+	color:white;
+	background: rgba(0,51,102,1);
+	cursor: pointer;
+}
+.consul_vaca
+{
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    overflow:hidden;
+    padding:0px;
+    margin:0px;
+    background:rgba(0,0,0,0.5);
+    z-index:999;
+    font-family: "Roboto-Regular";
+    display:none;
+    color:rgba(0,0,0,0.6) !important;
+}
+.consul_vaca .contenedor
+{
+	width: 800px;
+	border: 2px solid rgba(255,255,255,1);
+	border-radius:5px;
+	height: 550px;
+	margin-top: 10% !important;
+	background: rgba(235,235,235,1);
+	margin:0px auto;
+	overflow: hidden;
+}
+.consul_vaca .contenedor .header
+{
+	width: 100%;
+	height: 8%;
+	margin: 0px auto;
+	background: rgba(0,51,102,1) !important;
+	text-align: center;
+	color:rgba(255,255,255,1);
+	font-size: 20px !important;
+	overflow: hidden;
+	font-family: "Roboto-Regular" !important;
+	padding-top: 3% !important;
+}
+.consul_vaca .contenedor .body
+{
+	width: 100%;
+	height: 75%;
+	margin: 0px auto;
+	overflow: hidden;
+}
+.consul_vaca .contenedor .body fieldset
+{
+	width: 92.5%;
+	border: 1px solid rgba(0,51,102,1);
+	height: 93%;
+	margin: 0px auto;
+	overflow: hidden;
+	margin-top: 10px !important;
+}
+.consul_vaca .contenedor .body fieldset .imagen
+{
+	width: 40%;
+	height: 50%;
+	float: left;
+}
+.consul_vaca .contenedor .body fieldset .imagen .img
+{
+	width: 60%;
+	height: 80%;
+	border-radius:10px;
+	border:2px solid orange;
+	margin-top: 4% !important;
+	margin:0px auto;
+	overflow: hidden;
+}
+.consul_vaca .contenedor .body fieldset .imagen .img img
+{
+	width: 100%;
+	height: 100%;
+}
+.consul_vaca .contenedor .body fieldset .datos
+{
+	width: 60%;
+	height: 50%;
+	float: left;
+}
+.consul_vaca .contenedor .body fieldset .datos table
+{
+	width: 100%;
+	margin-top: 5%;
+	word-break: break-all;
+	height: 70%;
+}
+.consul_vaca .contenedor .body fieldset .detalle
+{
+	width: 100%;
+	height: 50%;
+	clear: both;
+}
+.consul_vaca .contenedor .body fieldset .detalle table
+{
+	width: 90%;
+	height: 50%;
+	margin:0px auto;
+	word-break: break-all;
+}
+.consul_vaca .contenedor .body fieldset .detalle table .td
+{
+	color: red !important;
+	width: 30%;
+	font-family: "Roboto-Bold" !important;
+}
+.consul_vaca .contenedor .body fieldset .detalle table .td2
+{
+	color: rgba(0,0,0,0.7) !important;
+	width: 20%;
+}
+.consul_vaca .contenedor .body fieldset table .td2
+{
+	color: rgba(0,0,0,0.7) !important;
+	width: 20%;
+}
+.consul_vaca .contenedor .footer
+{
+	width: 100%;
+	height: 10%;
+	margin: 0px auto;
+	overflow: hidden;
+}
+.consul_vaca .contenedor .footer
+{
+	width: 100%;
+	height: 10%;
+	margin: 0px auto;
+	overflow: hidden;
+}
+.consul_vaca .contenedor .footer input[type='button']
+{
+	margin: 0px auto;
+	width: 20%;
+	height: 60%;
+	margin-right: 3%;
+	margin-left: 38%;
+	margin-top: 1.5%;
+	background: rgba(199,199,199,1);
+	color:rgba(0,51,102,1);
+	text-align: center;
+	border-radius:3px;
+	font-size: 14px;
+	border:none;
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	-o-transition:all 1s ease;
+}
+.consul_vaca .contenedor .footer input[type='button']:hover
+{
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+	background: rgba(0,51,102,1);
+	color:rgba(255,255,255,1);
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+/* POPUD DE GENERA SOLICITUD DE VACACIONES*/
+.popud_genera
+{
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    overflow:hidden;
+    padding:0px;
+    margin:0px;
+    background:rgba(0,0,0,0.5);
+    z-index:999;
+    font-family: "Roboto-Regular";
+    overflow: hidden;
+    display: none;
+}
+.popud_genera .mensaje
+{
+	background:white;
+	margin: 0px auto;
+	width: 400px;
+	height: 150px;
+	border-radius:10px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+	margin-top: 30%;
+	border:1px solid rgba(199,199,199,1);
+	overflow: hidden;
+}
+.popud_genera .mensaje .header
+{
+	background:rgba(0,51,102,1);
+	margin: 0px auto;
+	width: 100%;
+	height: 25%;
+	text-align: center;
+	color:rgba(199,199,199,1);
+	font-size: 18px;
+	padding-top: 2%;
+	border-bottom:1px solid rgba(0,0,0,0.5);
+}
+.popud_genera .mensaje .accion
+{
+	margin: 0px auto;
+	width: 100%;
+	height: 70%;
+	color:rgba(199,199,199,1);
+	padding-top: 2%;
+	border-bottom:1px solid rgba(0,0,0,0.5);
+}
+.popud_genera .mensaje .accion table
+{
+	width: 90%;
+	margin: 0px auto;
+	height: 70%;
+	overflow: hidden;
+	font-size: 13px !important;
+	word-break: break-all;
+}
+.popud_genera .mensaje .accion table input[type="text"]
+{
+	margin: 0px auto;
+	width: 80%;
+	height: 35%;
+	color:rgba(0,51,102,1);
+	border-radius:5px;
+	border:1px solid rgba(0,0,0,0.5);
+	font-size: 14px;
+}
+.popud_genera .mensaje .accion table input[type="button"]
+{
+	margin: 0px auto;
+	width: 120%;
+	float: right;
+	height: 45%;
+	background: rgba(199,199,199,1);
+	color:rgba(0,51,102,1);
+	border-radius: 5px;
+	border: none;
+	text-align: center;
+	border-radius:3px;
+	font-size: 14px;
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	-o-transition:all 1s ease;
+}
+.popud_genera .mensaje .accion table input[type="button"]:hover
+{
+	color:white;
+	background: rgba(0,51,102,1);
+	cursor: pointer;
+}
+
+
+
+
+
+
+.genera_vaca
+{
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    overflow:hidden;
+    padding:0px;
+    margin:0px;
+    background:rgba(0,0,0,0.5);
+    z-index:999;
+    display:none;
+}
+.genera_vaca .contenedor
+{
+	width: 800px;
+	border: 2px solid rgba(255,255,255,1);
+	border-radius:5px;
+	height: 550px;
+	margin-top: 10% !important;
+	background: rgba(235,235,235,1);
+	margin:0px auto;
+	overflow: hidden;
+}
+.genera_vaca .contenedor .header
+{
+	width: 100%;
+	height: 8%;
+	margin: 0px auto;
+	background: rgba(0,51,102,1) !important;
+	text-align: center;
+	color:rgba(255,255,255,1);
+	font-size: 20px !important;
+	font-family: "Roboto-regular" !important;
+	overflow: hidden;
+	padding-top: 3% !important;
+}
+.genera_vaca .contenedor .body
+{
+	width: 100%;
+	height: 75%;
+	margin: 0px auto;
+	overflow: hidden;
+}
+.genera_vaca .contenedor .body fieldset
+{
+	width: 92.5%;
+	border: 1px solid rgba(0,51,102,1);
+	height: 93%;
+	margin: 0px auto;
+	overflow: hidden;
+	margin-top: 10px !important;
+}
+.genera_vaca .contenedor .body fieldset .limpiar
+{
+	width: 100%;
+	height: 50%;
+}
+.genera_vaca .contenedor .body fieldset  .limpiar .imagen
+{
+	width: 40%;
+	height: 100%;
+	float: left;
+}
+.genera_vaca .contenedor .body fieldset .limpiar .imagen .img
+{
+	width: 60%;
+	height: 170%;
+	border-radius:10px;
+	border:2px solid orange;
+	margin-top: 4% !important;
+	margin:0px auto;
+	overflow: hidden;
+}
+.genera_vaca .contenedor .body fieldset .limpiar .imagen .img img
+{
+	width: 100%;
+	height: 100%;
+}
+.genera_vaca .contenedor .body fieldset .limpiar .datos
+{
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+.genera_vaca .contenedor .body fieldset .limpiar .datos table
+{
+	width: 100%;
+	margin-top: 5%;
+	height: 70%;
+	word-break: break-all;
+}
+.genera_vaca .contenedor .body fieldset .limpiar .datos table .td
+{
+	color:rgba(0,0,0,0.7) !important;
+}
+
+.genera_vaca .contenedor .body fieldset .detalle
+{
+	width: 100%;
+	height: 50%;
+	clear: both;
+}
+.genera_vaca .contenedor .body fieldset .detalle table
+{
+	width: 90%;
+	height: 50%;
+	margin:0px auto;
+	word-break: break-all;
+}
+.genera_vaca .contenedor .body fieldset .detalle table .td
+{
+	color: rgba(0,0,0,0.7) !important;
+	width: 20%;
+}
+.genera_vaca .contenedor .body fieldset table .td2
+{
+	color: rgba(0,0,0,0.7) !important;
+	width: 20%;
+}
+.genera_vaca .contenedor .footer
+{
+	width: 100%;
+	height: 10%;
+	margin: 0px auto;
+	overflow: hidden;
+}
+.genera_vaca .contenedor .footer
+{
+	width: 100%;
+	height: 10%;
+	margin: 0px auto;
+	overflow: hidden;
+}
+.genera_vaca .contenedor .footer input[type='button']
+{
+	margin: 0px auto;
+	width: 20%;
+	height: 60%;
+	margin-right: 3%;
+	margin-left: 18%;
+	margin-top: 1.5%;
+	background: rgba(199,199,199,1);
+	color:rgba(0,51,102,1);
+	text-align: center;
+	border-radius:3px;
+	font-size: 14px;
+	border:none;
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	-o-transition:all 1s ease;
+}
+.genera_vaca .contenedor .footer input[type='button']:hover
+{
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+	background: rgba(0,51,102,1);
+	color:rgba(255,255,255,1);
+	cursor: pointer;
+}
+
+
+
+/* MENSAJE DE AVISO DE GUARDADO */
+.popud_aviso
+{
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    overflow:hidden;
+    padding:0px;
+    margin:0px;
+    background:rgba(0,0,0,0.5);
+    z-index:999;
+    font-family: "Roboto-Regular";
+    overflow: hidden;
+    display: none;
+}
+.popud_aviso .mensaje
+{
+	background:white;
+	margin: 0px auto;
+	width: 400px;
+	height: 150px;
+	border-radius:10px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+	border:1px solid rgba(199,199,199,1);
+	overflow: hidden;
+}
+.popud_aviso .mensaje .header
+{
+	background:rgba(0,51,102,1);
+	margin: 0px auto;
+	width: 100%;
+	height: 25%;
+	text-align: center;
+	color:rgba(199,199,199,1);
+	font-size: 18px;
+	padding-top: 2%;
+	border-bottom:1px solid rgba(0,0,0,0.5);
+}
+.popud_aviso .mensaje .accion
+{
+	margin: 0px auto;
+	width: 100%;
+	height: 70%;
+	color:rgba(199,199,199,1);
+	padding-top: 2%;
+	border-bottom:1px solid rgba(0,0,0,0.5);
+}
+.popud_aviso .mensaje .accion table
+{
+	width: 90%;
+	margin: 0px auto;
+	height: 100%;
+	overflow: hidden;
+	font-size: 13px !important;
+	text-align:center;
+	word-break: break-all;
+}
+.popud_aviso .mensaje .accion table input[type="button"]
+{
+	margin: 0px auto;
+	width: 35%;
+	height: 45%;
+	background: rgba(199,199,199,1);
+	color:rgba(0,51,102,1);
+	border-radius: 5px;
+	border: none;
+	text-align: center;
+	border-radius:3px;
+	font-size: 14px;
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	-o-transition:all 1s ease;
+}
+.popud_aviso .mensaje .accion table input[type="button"]:hover
+{
+	color:white;
+	background: rgba(0,51,102,1);
+	cursor: pointer;
+}
+
+/*------------------------------------------------------------------
+*-*-*-*-*-*-*- CONSULTAS DE ADAPTABILIDAD MEDIA QUERY -*-*-*-*-*-*-*
+--------------------------------------------------------------------*/
+
+/* CALCULO SOLO EL HEIGHT (ACTURA)*/
+@media screen and (min-height: 300px) and (max-height: 350px){
+	.contenedor{ height: 1200px; }
+}
+
+@media screen and (min-height: 350px) and (max-height: 400px){
+	.contenedor{ height: 1300px; }
+
+}
+
+@media screen and (min-height: 400px) and (max-height: 450px){
+	.contenedor{ height: 1400px; }
+}
+
+@media screen and (min-height: 450px) and (max-height: 500px){
+	.contenedor{ height: 1500px; }
+}
+
+@media screen and (min-height: 500px) and (max-height: 550px){
+	.contenedor{ height: 1600px; }
+}
+
+@media screen and (min-height: 550px) and (max-height: 600px){
+	.contenedor{ height: 1700px; }
+}
+
+@media screen and (min-height: 600px) and (max-height: 650px){
+	.contenedor{ height: 1800px; }
+}
+
+@media screen and (min-height: 650px) and (max-height: 700px){
+	.contenedor{ height: 1900px; }
+}
+
+@media screen and (min-height: 700px) and (max-height: 750px){
+	.contenedor{ height: 2000px; }
+}
+
+@media screen and (min-height: 750px) and (max-height: 800px){
+	.contenedor{ height: 2100px; }
+}
+
+@media screen and (min-height: 800px) and (max-height: 850px){
+	.contenedor{ height: 2200px; }
+}
+
+@media screen and (min-height: 850px) and (max-height: 900px){
+	.contenedor{ height: 2300px; }
+}
+
+@media screen and (min-height: 900px) and (max-height: 950px){
+	.contenedor{ height: 2400px; }
+}
+
+@media screen and (min-height: 950px) and (max-height: 1000px){
+	.contenedor{ height: 2500px; }
+}
+
+@media screen and (min-height: 1000px) and (max-height: 1050px){
+	.contenedor{ height: 2600px; }
+}
+
+@media screen and (min-height: 1100px) and (max-height: 1150px){
+	.contenedor{ height: 2700px; }
+}
+
+
+
+/* CALCULO EL WIDTH (ANCHO) */
+@media screen and (min-width: 200px) and (max-width: 250px){
+	.contenedor{ height: 1600px; }
+}
+
+@media screen and (min-width: 250px) and (max-width: 300px){
+	.contenedor{ height: 1700px; }
+}
+
+@media screen and (min-width: 300px) and (max-width: 350px){
+	.contenedor{ height: 1800px; }
+}
+
+@media screen and (min-width: 350px) and (max-width: 400px){
+	.contenedor{ height: 1900px; }
+	.slider2_container{ height: 688px !important; }
+	.slider2_container .slider2_container_inter{ height: 688px !important; }
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 450px){
+	.contenedor{ height: 2000px; }
+}
+
+@media screen and (min-width: 450px) and (max-width: 500px){
+	.contenedor{ height: 2100px; }
+}
+
+@media screen and (min-width: 500px) and (max-width: 550px){
+	.contenedor{ height: 2200px; }
+}
+
+@media screen and (min-width: 550px) and (max-width: 600px){
+	.contenedor{ height: 2300px; }
+}
+
+@media screen and (min-width: 600px) and (max-width: 650px){
+	.contenedor{ height: 2400px; }
+}
+
+@media screen and (min-width: 650px) and (max-width: 700px){
+	.contenedor{ height: 2500px; }
+}
+
+@media screen and (min-width: 700px) and (max-width: 750px){
+	.contenedor{ height: 2600px; }
+}
+
+@media screen and (min-width: 750px) and (max-width: 800px){
+	.contenedor{ height: 2700px; }
+}
+
+@media screen and (min-width: 800px) and (max-width: 850px){
+	.contenedor{ height: 2800px; }
+}
+
+@media screen and (min-width: 850px) and (max-width: 900px){
+	.contenedor{ height: 2900px; }
+}
+
+@media screen and (min-width: 900px) and (max-width: 950px){
+	.contenedor{ height: 3000px; }
+}
+
+@media screen and (min-width: 950px) and (max-width: 1000px){
+	.contenedor{ height: 3100px; }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1050px){
+	.contenedor{ height: 3200px; }
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1100px){
+	.contenedor{ height: 3300px; }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1150px){
+	.contenedor{ height: 3400px; }
+}
+
+@media screen and (min-width: 1150px) and (max-width: 1200px){
+	.contenedor{ height: 3500px; }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1250px){
+	.contenedor{ height: 3600px; }
+}
+
+@media screen and (min-width: 1250px) and (max-width: 1300px){
+	.contenedor{ height: 3700px; }
+}

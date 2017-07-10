@@ -1,0 +1,226 @@
+/* General */
+
+.calendar-eightysix {
+	cursor: default;
+	position: absolute;
+	z-index: 999;
+	text-align: center;
+}
+	.calendar-eightysix, .calendar-eightysix * {
+		overflow: hidden;
+		padding: 0;
+		margin: 0;
+		line-height: 100%;
+	}
+		.calendar-eightysix .c86-header.c86-dragger {
+			cursor: move;
+		}
+		
+			.calendar-eightysix .c86-header .c86-arrow-left, .calendar-eightysix .c86-header .c86-arrow-right {
+				cursor: pointer;
+			}
+			.calendar-eightysix .c86-header .c86-arrow-left {
+				float: left;
+			}
+			.calendar-eightysix .c86-header .c86-arrow-right {
+				float: right;
+			}
+			
+			.calendar-eightysix .c86-header .c86-label {
+				display: inline-block;
+				overflow: visible;
+				width: 146px;
+
+			}
+				.calendar-eightysix .c86-header .c86-label.c86-clickable {
+					cursor: pointer;
+				}
+		
+		.calendar-eightysix .c86-body {
+			position: relative;
+
+		}
+			.calendar-eightysix .c86-body .c86-inner .c86-container {
+				position: absolute;
+				left: 0;
+			}
+				
+				.calendar-eightysix .c86-body .c86-inner .c86-container .c86-row div {
+					float: left;
+
+				}
+				
+					.calendar-eightysix .c86-body .c86-inner .c86-container.c86-month.c86-pickable .c86-row div, 
+					  .calendar-eightysix .c86-body .c86-inner .c86-container.c86-year-decade .c86-row div {
+						cursor: pointer;
+
+					}
+
+/* Specific */
+
+ .calendar-eightysix.default {
+ 	width: 279px;
+	height: 290px;
+	background: rgba(232,232,232,1);
+	font-family: "Roboto-regular";
+	font-size: 11px;
+	color: rgba(0,51,102,1);
+
+}
+
+	.calendar-eightysix.default .c86-wrapper {
+		padding: 8px;
+	}
+		
+		/* Header */
+		
+		.calendar-eightysix.default .c86-header {
+			width: 100%;
+			height: 50px;
+			font-size: 15px;
+			margin-bottom: 5%;
+			background: rgba(255,255,255,1);
+			overflow: hidden;
+
+		}
+		
+			.calendar-eightysix.default .c86-header .c86-arrow-left, .calendar-eightysix.default .c86-header .c86-arrow-right {
+				width: 12px;
+				height: 70%;
+				margin: 6px 6px;
+			}
+			.calendar-eightysix.default .c86-header .c86-arrow-left {
+				background: transparent url('../img/default/arrow-left.png') center no-repeat;
+			}
+				.calendar-eightysix.default .c86-header .c86-arrow-left:hover {
+					background-image: url('../img/default/arrow-left-hover-blue.png');
+				}
+			.calendar-eightysix.default .c86-header .c86-arrow-right {
+				background: transparent url('../img/default/arrow-right.png') center no-repeat;
+			}
+				.calendar-eightysix.default .c86-header .c86-arrow-right:hover {
+					background-image: url('../img/default/arrow-right-hover-blue.png');
+				}
+			.calendar-eightysix.default .c86-header .c86-label {
+				width: 80%;
+				margin-top: 5%;
+				font-size: 18px;
+				color: rgba(0,51,102,1);
+
+			}
+				.calendar-eightysix.default .c86-header .c86-label.c86-clickable:hover {
+					color: skyblue;
+				}
+		
+		/* Body */
+		
+		.calendar-eightysix.default .c86-body {
+			height: 200px;
+			 background: rgba(255,255,255,1); 
+			/* AQUI DAR COLOR A UN CSS */
+			padding-bottom: 5%;
+		}
+			
+			.calendar-eightysix.default .c86-body .c86-inner .c86-container {
+				width: 100%;
+				height: 100%;
+			}
+			
+			/* General container */
+			
+			.calendar-eightysix.default .c86-body .c86-inner .c86-container .c86-row {
+				width: 100%;
+				height: 100%;
+			}
+				.calendar-eightysix.default .c86-body .c86-inner .c86-container .c86-row.c86-even,
+				  .calendar-eightysix.default .c86-body .c86-inner .c86-container .c86-row.c86-even div {
+					padding-top: 1%;
+				}
+
+				.calendar-eightysix.default .c86-body .c86-inner .c86-container .c86-row.c86-odd div {
+					padding-top: 1%; 
+				}
+				
+				.calendar-eightysix.default .c86-body .c86-inner .c86-container .c86-row div.c86-today {
+					text-decoration: underline;
+				}
+				.calendar-eightysix.default .c86-body .c86-inner .c86-container .c86-row div.c86-selected {
+					font-weight: bold;
+					color: red;
+					background: rgba(255,204,51,1);
+					padding-top: 1%;
+					padding-bottom: 1%;
+					text-decoration: none;		
+				}
+				
+				.calendar-eightysix.default .c86-body .c86-inner .c86-container .c86-row div.c86-non-selectable,
+				  .calendar-eightysix.default .c86-body .c86-inner .c86-container .c86-row div.c86-non-selectable:hover {
+					color: #dcdcdc !important;
+					cursor: default !important;
+				}
+			
+			/* Month */
+			
+			.calendar-eightysix.default .c86-body .c86-inner .c86-container.c86-month .c86-row.a div {
+				cursor: default !important;
+				color: #888 !important;
+			}
+			
+			.calendar-eightysix.default .c86-body .c86-inner .c86-container.c86-month .c86-row {
+				height: 14%;
+			}
+				
+				.calendar-eightysix.default .c86-body .c86-inner .c86-container.c86-month .c86-row div {
+					margin-top: 3px;
+					width: 12.55%;
+				}
+				
+				.calendar-eightysix.default .c86-body .c86-inner .c86-container.c86-month .c86-row div.c86-first {
+					padding-left: 16px;
+				}
+				.calendar-eightysix.default .c86-body .c86-inner .c86-container.c86-month .c86-row div.c86-last {
+					padding-right: 16px;
+				}
+				
+				.calendar-eightysix.default .c86-body .c86-inner .c86-container.c86-month .c86-row div.c86-outside {
+					color: rgba(0,51,102,0.3);
+				}
+
+				.calendar-eightysix.default .c86-body .c86-inner .c86-container.c86-month .c86-row.c86-even div.c86-outside {
+					color: rgba(0,51,102,0.5);
+				}				
+					.calendar-eightysix.default .c86-body .c86-inner .c86-container.c86-month .c86-row.a div {
+						color: rgba(0,51,102,1) !important;
+						background: rgba(255,204,51,1); /* CABECERA DEL CALENDARIO*/
+						padding-top: 2.5%;
+						height: 65%;
+						margin-top: 0px !important;
+						font-family: "Roboto-Black";
+					}
+		
+			/* ESTILOS PARA LISTADO DE ANIOS */
+			
+			.calendar-eightysix.default .c86-body .c86-inner .c86-container.c86-year-decade .c86-row {
+				height: 30%;
+			}
+				.calendar-eightysix.default .c86-body .c86-inner .c86-container.c86-year-decade .c86-row div {
+					width: 21.5%;
+					padding-top: 10%;
+					padding-bottom: 3%;
+					height: 29px;
+				}
+					.calendar-eightysix.default .c86-body .c86-inner .c86-container.c86-year-decade .c86-row div.c86-first {
+						margin-left: 16px;
+					}
+					.calendar-eightysix.default .c86-body .c86-inner .c86-container.c86-year-decade .c86-row div.c86-last {
+						margin-right: 16px;
+						height: 100%;
+					}
+					
+					.calendar-eightysix.default .c86-body .c86-inner .c86-container.c86-month.c86-pickable .c86-row div:hover, 
+					  .calendar-eightysix.default .c86-body .c86-inner .c86-container.c86-year-decade .c86-row div:hover {
+						color: red;
+					}
+
+		
+

@@ -1,0 +1,116 @@
+/* ESTILOS PARA DATETIME */
+.ui-helper-hidden { display: none; }
+.ui-helper-hidden-accessible { position: absolute !important; clip: rect(1px 1px 1px 1px); clip: rect(1px,1px,1px,1px); }
+.ui-helper-reset { margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none; }
+.ui-helper-clearfix:before, .ui-helper-clearfix:after { content: ""; display: table; }
+.ui-helper-clearfix:after { clear: both; }
+.ui-helper-clearfix { zoom: 1; }
+.ui-helper-zfix { width: 100%; height: 100%; top: 0; left: 0; position: absolute; opacity: 0; filter:Alpha(Opacity=0); }
+
+
+.ui-state-disabled { cursor: default !important; }
+
+.ui-icon { display: block; text-indent: -99999px; overflow: hidden; background-repeat: no-repeat; }
+
+
+/* Misc visuals */
+/* Overlays */
+.ui-widget-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+/* Component containers */
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: Lucida Grande, Lucida Sans, Arial, sans-serif; font-size: 1em; }
+.ui-widget-content { border: 1px solid #a6c9e2; background: #fcfdfd 50% bottom repeat-x; color: #222222; }
+
+.ui-widget-header { border: 1px solid #4297d7; background: #5c9ccc 50% 50% repeat-x; color: #ffffff; font-weight: bold; }
+/* Interaction states */
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { border: 1px solid #c5dbec; background: #dfeffc u 50% 50% repeat-x; font-weight: bold; color: #2e6e9e; }
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color: #2e6e9e; text-decoration: none; }
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus { border: 1px solid #79b7e7; background: #d0e5f5 50% 50% repeat-x; font-weight: bold; color: #1d5987; }
+.ui-state-hover a, .ui-state-hover a:hover { color: #1d5987; text-decoration: none; }
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { border: 1px solid #79b7e7; background: #f5f8f9 50% 50% repeat-x; font-weight: bold; color: #e17009; }
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { color: #e17009; text-decoration: none; }
+.ui-widget :active { outline: none; }
+
+
+
+
+
+/* ESTILOS PERSONALES */
+#ptTimeSelectCntr {
+	width: 250px; 
+	font-size: .9em;
+	position: absolute;
+	z-index: 10;
+	display: none;
+	z-index: 1000 !important;
+}
+#ptTimeSelectCntr .ui-widget{
+	padding: .2em;
+}
+#ptTimeSelectCntr .ui-widget-header {
+	padding: .2em;
+	background:-webkit-linear-gradient(120deg, #134f8a, #447fb8,#134f8a);
+	background:-moz-linear-gradient(120deg, #134f8a, #447fb8,#134f8a);
+	background:-ms-linear-gradient(120deg, #134f8a, #447fb8,#134f8a);
+	background:-o-linear-gradient(120deg, #134f8a, #447fb8,#134f8a);
+}
+#ptTimeSelectCntr #ptTimeSelectUserTime {
+	font-size: larger;
+	padding: .2em;
+	padding-left: 1em;
+	text-align: center;
+}
+#ptTimeSelectCntr #ptTimeSelectCloseCntr {
+	display: block;
+	padding: .2em;
+}
+#ptTimeSelectCntr #ptTimeSelectCloseCntr a {
+	display: block;
+	padding: .2em;
+	background: white;
+}
+#ptTimeSelectCntr .ui-widget-content {
+	 margin-top: .1em;
+	 margin-bottom: .1em; 
+	 padding: .2em;	
+}
+#ptTimeSelectCntr .ui-widget.ui-widget-content {
+	margin-top: 0;
+}
+#ptTimeSelectCntr .ptTimeSelectLeftPane.ui-widget-content {
+	border-top:none;
+	border-bottom:none;
+	border-left:none;
+	border-right-width: 2px;
+}
+#ptTimeSelectCntr .ptTimeSelectRightPane.ui-widget-content {
+	border: none;
+}
+#ptTimeSelectCntr .ptTimeSelectHrCntr a,
+#ptTimeSelectCntr .ptTimeSelectMinCntr a {
+	display: block;
+	float: left;
+	padding: .2em;
+	width: 1.9em;
+	margin: 1px;
+	text-align: center;
+	text-decoration: none;
+}
+#ptTimeSelectCntr .ptTimeSelectHrAmPmCntr a {
+	text-align: center;
+	margin: 1px;
+}
+#ptTimeSelectCntr .ptTimeSelectTimeLabelsCntr {
+	font-weight: bold;
+	font-size: .9em;
+}
+#ptTimeSelectCntr #ptTimeSelectSetButton {
+	padding-top: .2em;
+	padding-bottom: .2em;
+}
+#ptTimeSelectCntr #ptTimeSelectSetButton a {
+ 	display: block;
+	padding: .2em;
+	width: 30%;
+	text-align: center;
+	float: right;
+}

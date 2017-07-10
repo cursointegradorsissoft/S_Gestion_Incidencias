@@ -1,0 +1,103 @@
+.style1 {color: #0000FF}
+
+.roundedCorner{display:block}
+.roundedCorner *{
+  display:block;
+  height:1px;
+  overflow:hidden;
+  font-size:.01em;
+  background:#0061ce
+}
+
+.roundedCorner1{
+  margin-left:3px;
+  margin-right:3px;
+  padding-left:1px;
+  padding-right:1px;
+  border-left:1px solid #91bbe9;
+  border-right:1px solid #91bbe9;
+  background:#3f88da
+}
+
+.roundedCorner2{
+  margin-left:1px;
+  margin-right:1px;
+  padding-right:1px;
+  padding-left:1px;
+  border-left:1px solid #e5effa;
+  border-right:1px solid #e5effa;
+  background:#307fd7
+}
+
+.roundedCorner3{
+  margin-left:1px;
+  margin-right:1px;
+  border-left:1px solid #307fd7;
+  border-right:1px solid #307fd7;
+}
+
+.roundedCorner4{
+  border-left:1px solid #91bbe9;
+  border-right:1px solid #91bbe9
+}
+
+.roundedCorner5{
+  border-left:1px solid #3f88da;
+  border-right:1px solid #3f88da
+}
+
+.roundedCornerfg{
+  background:#0061ce;
+}
+
+.gantt{ 
+	font-family:tahoma, arial, verdana; font-size:10px; 
+	border:2px solid rgba(199,199,199,1);
+	width:100% !important;
+	height: 100% !important;
+	margin: 0pc auto;
+	overflow-x: auto scroll;
+	overflow-y: auto scroll;
+}
+
+.scroll { 
+	BORDER-RIGHT: #efefef 1px solid;
+	PADDING-RIGHT: 0px; 
+	BORDER-TOP: #efefef 1px solid; 
+	PADDING-LEFT: 0px; 
+	PADDING-BOTTOM: 0px; 
+	overflow-x:auto scroll !important;
+	overflow-y:auto scroll !important; 
+	overflow:auto ;
+	BORDER-LEFT: #efefef 1px solid; 
+	PADDING-TOP: 0px; 
+	BORDER-BOTTOM: #efefef 1px solid; 
+}
+
+.scroll img{ 
+	height: 15px;
+	width: 15px;
+	float: right;
+	opacity: 0.5;
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	-o-transition:all 1s ease;
+}
+
+.scroll img:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+
+.scroll2 { 
+	position:relative; 
+	PADDING-RIGHT: 0px; 
+	overflow:auto ;
+	overflow-x:scroll;
+	overflow-y:scroll; 
+	PADDING-LEFT: 0px; 
+	PADDING-BOTTOM: 0px; 
+	PADDING-TOP: 0px; 
+	BACKGROUND-COLOR: #ffffff;
+}

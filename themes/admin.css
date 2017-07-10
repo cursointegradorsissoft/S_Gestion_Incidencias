@@ -1,0 +1,2084 @@
+@font-face{ font-family: 'Exo-Black'; src:url("fonts/Exo/Exo-Black.ttf") format("opentype");}
+@font-face{ font-family: 'Exo-Light'; src:url("fonts/Exo/Exo-Light.ttf") format("opentype");}
+@font-face{ font-family: 'Exo-Italic'; src:url("fonts/Exo/Exo-Italic.ttf") format("opentype");}
+@font-face{ font-family: 'Exo-Regular'; src:url("fonts/Exo/Exo-Regular.ttf") format("opentype");}
+
+@font-face{ font-family: 'Roboto-Black'; src:url("fonts/Roboto/Roboto-Black.ttf") format("opentype");}
+@font-face{ font-family: 'Roboto-Bold'; src:url("fonts/Roboto/Roboto-Bold.ttf") format("opentype");}
+@font-face{ font-family: 'Roboto-Italic'; src:url("fonts/Roboto/Roboto-Italic.ttf") format("opentype");}
+@font-face{ font-family: 'Roboto-Light'; src:url("fonts/Roboto/Roboto-Light.ttf") format("opentype");}
+@font-face{ font-family: 'Roboto-Regular'; src:url("fonts/Roboto/Roboto-Regular.ttf") format("opentype");}
+@font-face{ font-family: 'Roboto-BlackItalic'; src:url("fonts/Roboto/Roboto-BlackItalic.ttf") format("opentype");}
+
+@font-face{ font-family: 'RobotoCondensed-Bold'; src:url("fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf") format("opentype");}
+@font-face{ font-family: 'RobotoCondensed-Italic'; src:url("fonts/Roboto_Condensed/RobotoCondensed-Italic.ttf") format("opentype");}
+@font-face{ font-family: 'RobotoCondensed-Light'; src:url("fonts/Roboto_Condensed/RobotoCondensed-Light.ttf") format("opentype");}
+@font-face{ font-family: 'RobotoCondensed-Regular'; src:url("fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf") format("opentype");}
+@font-face{ font-family: 'RobotoCondensed-BoldItalic'; src:url("fonts/Roboto_Condensed/RobotoCondensed-BoldItalic.ttf") format("opentype");}
+
+body
+{
+	margin:0px auto;
+	width: 100%;
+	height: 100%;
+	font-family: "Roboto-Regular";
+	color: rgba(0,51,102,1);
+	position: absolute;
+}
+
+input[type='text']{
+	text-transform: uppercase;
+}
+
+/* BLOCK HEADER */
+header
+{
+	width: 100%;
+	height: 15%;
+	overflow: hidden;
+}
+
+header .header-left
+{
+	width: 30%;
+	height: 80%;
+	float: left;
+}
+
+header .header-left img
+{
+	width: 50%;
+	height: 80%;
+	margin-top: 2%;
+	margin-left: 5%;
+}
+
+header .header-right
+{
+	width: 20%;
+	height: 80%;
+	float: right;
+}
+
+header .header-right .interno
+{
+	width: 90%;
+	height: 90%;
+	overflow: hidden;
+	border-radius: 10px;
+	background: rgba(235,235,235,0.8);
+	margin: 0px auto;
+	margin-top: 1.5%;
+	text-align: center;
+}
+
+header .header-right img
+{
+	width: 15%;
+	height: 50%;
+	margin:0px auto;
+	text-align: center;
+	border-radius: 20%;
+	margin-top: 3%;
+}
+
+header .borde
+{
+	width: 100%;
+	height: 20%;
+	overflow: hidden;
+	background: -webkit-linear-gradient(top,  #447fb8,#134f8a);
+	background: -moz-linear-gradient(top,  #447fb8,#134f8a);
+	background: -ms-linear-gradient(top,  #447fb8,#134f8a);
+	background: -o-linear-gradient(top,  #447fb8,#134f8a);
+}
+
+header .borde .opt
+{
+	width: 10%;
+	height: 85%;
+	float: left;
+	border-left: 1px groove rgba(255,255,255,0.8);
+	margin-left: 0.5%;
+	margin-top: 1px;
+}
+
+header .borde .opt .img
+{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+
+header .borde .opt .img img
+{
+	width: 60%;
+	height: 100%;
+	float: right;
+	text-align: center;
+
+}
+
+header .borde .opt .text
+{
+	width: 70%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	color: rgba(255,255,255,1);
+	font-size: 12px;
+	margin-top: 1.5%;
+}
+
+header .borde .fecha
+{
+	width: 15%;
+	height: 85%;
+	float: right;
+	border-left: 1px groove rgba(255,255,255,0.8);
+	margin-right: 0.5%;
+	margin-top: 1px;
+	text-align: center;
+	color:rgba(255,255,255,1);
+	font-size: 13px;
+}
+
+
+/* BLOCK FOOTER*/
+footer
+{
+	width: 100%;
+	height: 5%;
+	background: blue;
+	overflow: hidden;
+	background: rgba(199,199,199,1);
+}
+
+footer .descrip
+{
+	color: rgba(0,0,0,0.7);
+	font-size: 12px;
+	margin-left: 1%;
+	margin-top: 1%;
+}
+
+/* BLOCK LEFT */
+
+.container-left{
+	width: 20%;
+	overflow: hidden !important;
+	height: 80%;
+	font-size: 12px;
+	float: left
+}
+
+
+.container-left .accordion{
+	width: 100%;
+	overflow: scroll;
+	min-height: 100%;
+}
+
+.container-left .accordion article a
+{
+	text-decoration: none;
+	color:rgba(0,0,0,0.7);
+}
+
+.container-left .accordion article a:hover
+{
+	color: rgba(0,51,102,1);
+}
+
+
+/* BLOQUE DISPLAY 2 */
+
+.container-left-2{
+	background:rgba(255,255,255,1);
+	width: 250px;
+	overflow: hidden !important;
+	height: 83%;
+	font-size: 12px;
+	float: left;
+	display:none;
+	position: absolute;
+	z-index: 100;
+}
+
+
+.container-left-2 .accordion{
+	width: 100%;
+	overflow: scroll;
+	min-height: 500%;
+}
+
+.container-left-2 .accordion article a
+{
+	text-decoration: none;
+	color:rgba(0,0,0,0.7);
+}
+
+.container-left-2 .accordion article a:hover
+{
+	color: rgba(0,51,102,1);
+}
+
+
+/* BLOCK RIGHT */
+
+.container-right{
+	width: 80%;
+	overflow: hidden;
+	height: 80%;
+	float: left;
+	text-align: center;
+}
+
+/* BLOCK RIGHT 2 */
+
+.container-right-2{
+	width: 10%;
+	overflow: hidden;
+	height: 83%;
+	float: left;
+	text-align: center;
+	box-shadow: 0px 0px 10px rgba(199,199,199,1);
+}
+
+.container-right-2 .opt{
+	width: 100%;
+	overflow: hidden;
+	height: 25%;
+	text-align: center;
+}
+
+.container-right-2 .opt .circle{
+	width: 80%;
+	height: 80%;
+	border-radius: 100%;
+	margin:0px auto;
+	margin-top: 5%;
+	border:2px solid orange;
+	opacity: 0.4;
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	-o-transition:all 1s ease;
+	overflow: hidden;
+}
+
+.container-right-2 .opt .circle:hover
+{
+	opacity: 1;
+	cursor: pointer;
+}
+
+.container-right-2 .opt .circle .interno{
+	width: 90%;
+	height: 90%;
+	border-radius: 100%;
+	margin:0px auto;
+	margin-top: 3.5%;
+	border: 1px solid rgba(0,51,102,1);
+	overflow: hidden;
+}
+
+.container-right-2 .opt .circle .interno img{
+	width: 80%;
+	height: 80%;
+	margin-top: 7%;
+	overflow: hidden;
+}
+
+
+/* VIEW INDEX ADMIN */
+
+.container-right .admin
+{
+	width: 100%;
+	height: 100%;
+	margin: 0px auto;
+	overflow: hidden;
+}
+
+.container-right .admin .title
+{
+	width: 100%;
+	height: 15%;
+	text-align: center;
+	color: rgba(0,51,102,1);
+	font-size: 30px;
+	font-family: "Roboto-BlackItalic";
+	overflow: hidden;
+	margin-top: 5%;
+}
+
+
+.container-right .admin .descrip
+{
+	width: 40%;
+	height: 60%;
+	float: left;
+	text-align: left !important;
+	padding-left: 15%;
+	font-family: "Roboto-Italic";
+}
+
+.container-right .admin .descrip li
+{
+
+	margin-top: 6%;
+	font-family: "Roboto-Regular";
+	color:rgba(0,0,0,0.7);
+}
+
+.container-right .admin .img
+{
+	width: 35%;
+	height: 60%;
+	float: left;
+}
+
+.container-right .admin .img img
+{
+	width: 50%;
+	height: 75%;
+	margin-top: 10%;
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	-o-transition:all 1s ease;
+}
+
+.container-right .admin .img img:hover
+{
+	width: 55%;
+	height: 80%;
+	margin-top: 2%;
+}
+
+.container-right .admin .pie
+{
+	width: 100%;
+	height: 15%;
+	clear: both;
+	color:rgba(0,0,0,0.5);
+	padding-top: 2%;
+}
+
+/*  VIEW LOCAL */
+
+.container-right .view-local
+{
+	width: 90%;
+	height: 90%;
+	margin: 0px auto;
+	overflow: hidden;
+	border:1px solid rgba(0,51,102,1);
+	margin-top: 2.5%;
+	font-size: 11px;
+}
+
+.container-right .view-local .registro
+{
+	width: 90%;
+	height: 34%;
+	margin: 0px auto;
+	overflow: hidden;
+	border:1px solid rgba(0,51,102,1);
+	background: rgba(240,239,233,0.3);
+	font-size: 11px;
+	border-radius: 10px;
+	text-align: left;
+	margin-top: 1%;
+}
+
+.container-right .view-local .registro table
+{
+	width: 90%;
+	margin: 0px auto;
+	text-align: left;
+	margin-top: 2%;
+}
+
+
+.container-right .view-local .registro table tr
+{
+	width: 100%;
+	height: 100%;
+}
+
+.container-right .view-local .registro table tr td
+{
+	width: 10%;
+	height: 100%;
+	padding: 1.5% 0% 1.5% 1%;
+}
+
+.container-right .view-local .registro table tr .td
+{
+	width: 35%;
+	height: 100%;
+}
+
+.container-right .view-local .registro table tr .td input[type='text']
+{
+	width: 90%;
+	height: 100%;
+	color:rgba(0,51,102,1);
+	padding: 1%;
+}
+
+.container-right .view-local .registro table tr .td input[type='submit']
+{
+	width: 20%;
+	height: 150%;
+	border:none;
+	background: -webkit-linear-gradient(top,  #447fb8,#134f8a);
+	background: -moz-linear-gradient(top,  #447fb8,#134f8a);
+	background: -ms-linear-gradient(top,  #447fb8,#134f8a);
+	background: -o-linear-gradient(top,  #447fb8,#134f8a);
+	margin: 0px auto;
+	color:rgba(255,255,255,1);
+	margin-left: 40%;
+}
+
+.container-right .view-local .registro table tr .td select
+{
+	width: 90%;
+	height: 120%;
+	color:rgba(0,51,102,1);
+	padding: 1%;
+}
+
+.container-right .view-local .listado
+{
+	width: 90%;
+	height: 45%;
+	margin: 0px auto;
+	overflow: hidden;
+	border:1px solid rgba(0,51,102,1);
+	background: rgba(240,239,233,0.5);
+	font-size: 11px;
+	border-radius: 10px;
+	text-align: left;
+	margin-top: 1%;
+}
+
+.container-right .view-local .listado table
+{
+	width: 100%;
+	height: 100%;
+	margin: 0px auto;
+	overflow: scroll;
+	border:none;
+	padding: 0px;
+	right: 0px;
+	top: 0px;
+}
+
+.container-right .view-local .listado table th
+{
+	margin: 0px auto;
+	width: 10%;
+	padding: 1%;
+	background: -webkit-linear-gradient(top,  #447fb8,#134f8a);
+	background: -moz-linear-gradient(top,  #447fb8,#134f8a);
+	background: -ms-linear-gradient(top,  #447fb8,#134f8a);
+	background: -o-linear-gradient(top,  #447fb8,#134f8a);
+	border:0px;
+	text-align: center;
+	color: rgba(255,255,255,1);
+}
+
+.container-right .view-local .listado table th .paginacion a
+{
+	overflow: hidden;
+	color: rgba(255,255,255,1);
+	text-decoration: none;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color:rgba(255,255,255,0.3);
+	padding: 0px;
+}
+
+.container-right .view-local .listado table tr
+{
+	margin: 0px auto;
+	border:1px solid rgba(235,235,235,0.8);
+}
+
+.container-right .view-local .listado table tr:hover td
+{
+	background: -webkit-linear-gradient(top,  #E8F6FE,#B8D4E4);
+	background: -moz-linear-gradient(top,  #E8F6FE,#B8D4E4);
+	background: -ms-linear-gradient(top,  #E8F6FE,#B8D4E4);
+	background: -o-linear-gradient(top,  #E8F6FE,#B8D4E4);
+}
+
+.container-right .view-local .listado table tr td
+{
+	margin: 0px auto;
+	background: rgba(255,255,255,1);
+	border:0px;
+	text-align: center;
+	padding: 1% 0px 1% 0px;
+}
+
+.container-right .view-local .listado table tr td img
+{
+	width: 20%;
+	height: 9.5%;
+}
+
+
+/*  *VIEW CARGO */
+
+.container-right .view-local .registro table tr input[type='submit']
+{
+	width: 20%;
+	height: 150%;
+	border:none;
+	background: -webkit-linear-gradient(top,  #447fb8,#134f8a);
+	background: -moz-linear-gradient(top,  #447fb8,#134f8a);
+	background: -ms-linear-gradient(top,  #447fb8,#134f8a);
+	background: -o-linear-gradient(top,  #447fb8,#134f8a);
+	margin: 0px auto;
+	color:rgba(255,255,255,1);
+	margin-left: 40%;
+}
+
+.container-right .view-local .listado table tr td .img
+{
+	width: 12%;
+	height: 9.5%;
+}
+
+/* VIEW TYPE CHANGE */
+
+
+/* VIEW ALMUERZO */
+
+.container-right .view-local .almuerzo
+{
+	width: 90%;
+	height: 80%;
+	margin: 0px auto;
+	overflow: hidden;
+	border:1px solid rgba(0,51,102,1);
+	background: rgba(240,239,233,0.3);
+	font-size: 11px;
+	border-radius: 10px;
+	text-align: left;
+	margin-top: 1%;
+}
+
+
+
+.container-right .view-local .almuerzo table
+{
+	width: 90%;
+	margin: 0px auto;
+	text-align: left;
+	margin-top: 2%;
+}
+
+.container-right .view-local .almuerzo table th
+{
+	background: rgba(0,51,102,1);
+	color:rgba(255,255,255,1);
+	text-align: center;
+}
+
+
+.container-right .view-local .almuerzo table tr
+{
+	width: 100%;
+	height: 100%;
+	margin-top: 5% !important;
+	color:rgba(0,51,102,1);
+}
+
+
+.container-right .view-local .almuerzo table tr input[type='text']
+{
+	width: 90%;
+	height: 100%;
+	color:rgba(0,51,102,1);
+	padding: 2%;
+}
+
+.container-right .view-local .almuerzo table tr input[type='submit']
+{
+	width: 20%;
+	height: 150%;
+	border:none;
+	background: -webkit-linear-gradient(top,  #447fb8,#134f8a);
+	background: -moz-linear-gradient(top,  #447fb8,#134f8a);
+	background: -ms-linear-gradient(top,  #447fb8,#134f8a);
+	background: -o-linear-gradient(top,  #447fb8,#134f8a);
+	margin: 0px auto;
+	color:rgba(255,255,255,1);
+	margin-left: 40%;
+}
+
+/* VIEW NOTICIAS */
+
+
+.container-right .view-new
+{
+	width: 90%;
+	height: 80%;
+	margin: 0px auto;
+	overflow: hidden;
+	border:1px solid rgba(0,51,102,1);
+	margin-top: 2.5%;
+	font-size: 11px;
+}
+
+.container-right .view-new .registro
+{
+	width: 90%;
+	height: 34%;
+	margin: 0px auto;
+	overflow: hidden;
+	border:1px solid rgba(0,51,102,1);
+	background: rgba(240,239,233,0.3);
+	font-size: 11px;
+	border-radius: 10px;
+	text-align: left;
+	margin-top: 1%;
+}
+
+.container-right .view-new .registro table
+{
+	width: 95%;
+	margin: 0px auto;
+	text-align: left;
+	margin-top: 1%;
+}
+
+
+.container-right .view-new .registro table tr
+{
+	width: 100%;
+	height: 100%;
+
+}
+
+.container-right .view-new .registro table tr td
+{
+	width: 50%;
+	height: 100%;
+	padding: 0.2%;
+	overflow: hidden;
+}
+
+.container-right .view-new .registro table tr img
+{
+	width: 45%;
+	height: 90%;
+	margin-left: 25%;
+}
+
+.container-right .view-new .registro table tr .td
+{
+	width: 50%;
+	height: 100%;
+	padding: 0.2%;
+	overflow: hidden;
+	padding: 1% 0% 1% 0%;
+}
+
+.container-right .view-new .registro table tr td input[type='text']
+{
+	width: 95%;
+	height: 100%;
+	color:rgba(0,51,102,1);
+	padding: 1%;
+	border-radius: 5px;
+}
+
+.container-right .view-new .registro table tr td input[type='file']
+{
+	padding-left: 5%;
+	border-radius: 5px;
+	text-align: right;
+}
+
+
+.container-right .view-new .registro table tr td input[type='submit']
+{
+	width: 20%;
+	height: 150%;
+	border:none;
+	background: -webkit-linear-gradient(top,  #447fb8,#134f8a);
+	background: -moz-linear-gradient(top,  #447fb8,#134f8a);
+	background: -ms-linear-gradient(top,  #447fb8,#134f8a);
+	background: -o-linear-gradient(top,  #447fb8,#134f8a);
+	margin: 0px auto;
+	color:rgba(255,255,255,1);
+	margin-left: 40%;
+}
+
+
+.container-right .view-new .listado
+{
+	width: 90%;
+	height: 45%;
+	margin: 0px auto;
+	overflow: hidden;
+	border:1px solid rgba(0,51,102,1);
+	background: rgba(240,239,233,0.5);
+	font-size: 11px;
+	border-radius: 10px;
+	text-align: left;
+	margin-top: 1%;
+}
+
+.container-right .view-new .listado table
+{
+	width: 100%;
+	height: 100%;
+	margin: 0px auto;
+	overflow: scroll;
+	border:none;
+	padding: 0px;
+	right: 0px;
+	top: 0px;
+}
+
+.container-right .view-new .listado table th
+{
+	margin: 0px auto;
+	width: 10%;
+	padding: 1%;
+	background: -webkit-linear-gradient(top,  #447fb8,#134f8a);
+	background: -moz-linear-gradient(top,  #447fb8,#134f8a);
+	background: -ms-linear-gradient(top,  #447fb8,#134f8a);
+	background: -o-linear-gradient(top,  #447fb8,#134f8a);
+	border:0px;
+	text-align: center;
+	color: rgba(255,255,255,1);
+}
+
+.container-right .view-new .listado table tr
+{
+	margin: 0px auto;
+	border:1px solid rgba(235,235,235,0.8);
+}
+
+.container-right .view-new .listado table tr:hover td
+{
+	background: -webkit-linear-gradient(top,  #E8F6FE,#B8D4E4);
+	background: -moz-linear-gradient(top,  #E8F6FE,#B8D4E4);
+	background: -ms-linear-gradient(top,  #E8F6FE,#B8D4E4);
+	background: -o-linear-gradient(top,  #E8F6FE,#B8D4E4);
+}
+
+.container-right .view-new .listado table tr td
+{
+	margin: 0px auto;
+	background: rgba(255,255,255,1);
+	border:0px;
+	text-align: center;
+	padding: 1% 0px 1% 0px;
+}
+
+.container-right .view-new .listado table tr td img
+{
+	width: 20%;
+	height: 9.5%;
+}
+
+
+
+/* VIEW PERSONAL */
+
+.container-right .opcion
+{
+	width: 92%;
+	margin:0px auto;
+	height: 5%;
+	text-align: left;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.container-right .opcion input[type='button']
+{
+	height: 100%;
+	width: 15%;
+	border:none;
+	background: -webkit-linear-gradient(top,#134f8a,#447fb8);
+	background: -moz-linear-gradient(top,#134f8a,#447fb8);
+	background: -ms-linear-gradient(top,#134f8a,#447fb8);
+	background: -o-linear-gradient(top,#134f8a,#447fb8);
+	color: rgba(255,255,255,1);
+}
+
+.container-right .view-personal
+{
+	width: 90%;
+	height: 90%;
+	margin: 0px auto;
+	overflow: hidden;
+	border:1px solid rgba(0,51,102,1);
+	margin-top: 2.5%;
+	font-size: 11px;
+}
+
+.container-right .view-personal .registro
+{
+	width: 90%;
+	height: 85%;
+	margin: 0px auto;
+	overflow: hidden;
+	border:1px solid rgba(0,51,102,1);
+	background: rgba(240,239,233,0.3);
+	font-size: 11px;
+	border-radius: 10px;
+	text-align: left;
+}
+
+.container-right .view-personal .registro table
+{
+	width: 100%;
+	margin: 0px auto;
+	text-align: left;
+	margin-top: 2%;
+}
+
+
+.container-right .view-personal .registro table tr
+{
+	width: 100%;
+	height: 100%;
+}
+
+.container-right .view-personal .registro table tr td
+{
+	height: 100%;
+	padding: 1.5% 0% 1.5% 0%;
+}
+
+.container-right .view-personal .registro table tr .td
+{
+	height: 100%;
+	overflow: hidden;
+}
+
+.container-right .view-personal .registro table tr td input[type='text']
+{
+	width: 90%;
+	height: 100%;
+	color:rgba(0,51,102,1);
+	padding: 1%;
+}
+
+.container-right .view-personal .registro table tr td input[type='date']
+{
+	width: 90%;
+	height: 100%;
+	color:rgba(0,51,102,1);
+	padding: 1%;
+}
+
+.container-right .view-personal .registro table tr .td select
+{
+	width: 94% !important;
+}
+
+.container-right .view-personal .registro table tr td input[type='submit']
+{
+	width: 20%;
+	height: 150%;
+	border:none;
+	background: -webkit-linear-gradient(top,  #447fb8,#134f8a);
+	background: -moz-linear-gradient(top,  #447fb8,#134f8a);
+	background: -ms-linear-gradient(top,  #447fb8,#134f8a);
+	background: -o-linear-gradient(top,  #447fb8,#134f8a);
+	margin: 0px auto;
+	color:rgba(255,255,255,1);
+	margin-left: 40%;
+}
+
+.container-right .view-personal .registro table tr .td select
+{
+	width: 50%;
+	height: 120%;
+	color:rgba(0,51,102,1);
+	padding: 1%;
+}
+
+.container-right .view-personal .listado
+{
+	width: 90%;
+	height: 90%;
+	margin: 0px auto;
+	overflow: hidden;
+	border:1px solid rgba(0,51,102,1);
+	background: rgba(240,239,233,0.5);
+	font-size: 11px;
+	border-radius: 10px;
+	text-align: left;	
+	display: none;
+}
+
+.container-right .view-personal .listado table
+{
+	width: 100%;
+	height: 100%;
+	margin: 0px auto;
+	overflow: scroll;
+	border:none;
+	padding: 0px;
+	right: 0px;
+	top: 0px;
+}
+
+.container-right .view-personal .listado table th
+{
+	margin: 0px auto;
+	width: 10%;
+	padding: 1%;
+	background: -webkit-linear-gradient(top,  #447fb8,#134f8a);
+	background: -moz-linear-gradient(top,  #447fb8,#134f8a);
+	background: -ms-linear-gradient(top,  #447fb8,#134f8a);
+	background: -o-linear-gradient(top,  #447fb8,#134f8a);
+	border:0px;
+	text-align: center;
+	color: rgba(255,255,255,1);
+}
+
+.container-right .view-personal .listado table th .paginacion a
+{
+	overflow: hidden;
+	color: rgba(255,255,255,1);
+	text-decoration: none;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color:rgba(255,255,255,0.3);
+	padding: 0px;
+}
+
+.container-right .view-personal .listado table tr
+{
+	margin: 0px auto;
+	border:1px solid rgba(235,235,235,0.8);
+}
+
+.container-right .view-personal .listado table tr:hover td
+{
+	background: -webkit-linear-gradient(top,  #E8F6FE,#B8D4E4);
+	background: -moz-linear-gradient(top,  #E8F6FE,#B8D4E4);
+	background: -ms-linear-gradient(top,  #E8F6FE,#B8D4E4);
+	background: -o-linear-gradient(top,  #E8F6FE,#B8D4E4);
+}
+
+.container-right .view-personal .listado table tr td
+{
+	margin: 0px auto;
+	background: rgba(255,255,255,1);
+	border:0px;
+	text-align: center;
+	padding: 1% 0px 1% 0px;
+}
+
+.container-right .view-personal .listado table tr td img
+{
+	width: 20%;
+	height: 9.5%;
+}
+
+/* CONTENT OFICIAL */
+.container-right .content-general
+{
+	width: 100%;
+	height: 100%;
+	/*background: rgba(233,237,241,1);*/
+	margin:0px auto;
+	overflow: hidden;
+}
+
+.container-right .content-general .superior
+{
+	width: 100%;
+	height: 7%;
+	border-bottom:1px solid rgba(0,0,0,0.5);
+	border-radius: 0px 0px 10px 10px;
+	margin:0px auto;
+	overflow: hidden;
+}
+
+.container-right .content-general .superior .left
+{
+	width: 50%;
+	height: 100%;
+	overflow: hidden;
+	float: left;
+	text-align: left;
+	padding-left: 2%;
+	padding-top: 0.5%;
+}
+
+.container-right .content-general .superior .right
+{
+	width: 35%;
+	height: 100%;
+	overflow: hidden;
+	float: right;
+}
+
+.container-right .content-general .superior .right .acceso
+{
+	width: 29%;
+	height: 75%;
+	float: right;
+	margin-right: 3%;
+	margin-top: 1%;
+	overflow: hidden;
+	background-position: 10% 40%;
+	background-repeat: no-repeat;
+	background-size: 20% 70%;
+	border-radius: 3px;
+	border:1px solid rgba(0,0,0,0.3);
+}
+
+.container-right .content-general .superior .right .acceso input[type='submit']
+{
+	border: none;
+	background: none;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 12px;
+	font-family: "Roboto-Bold";
+}
+
+.container-right .content-general .superior .right .acceso input[type='button']
+{
+	border: none;
+	background: none;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 12px;
+	font-family: "Roboto-Bold";
+}
+
+.container-right .content-general .medio
+{
+	width: 100%;
+	height: 10%;	
+	overflow: hidden;
+}
+
+.container-right .content-general .medio .boton
+{
+	margin-left: 1%;
+	float: left;
+	width: 6%;
+	height: 80%;
+	margin-top: 0.5%;
+	overflow: hidden;
+	text-align: center;
+	-webkit-transition:all 0.3s ease;
+	-moz-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	-o-transition:all 1s ease;
+	background-position: 50% 15%;
+	background-repeat: no-repeat;
+	background-size: 40% 60%;
+	border-radius: 3px;
+}
+
+.container-right .content-general .medio .boton:hover
+{
+	background: rgba(160,160,160,1);
+	background-position: 50% 15%;
+	background-repeat: no-repeat;
+	background-size: 40% 60%;
+}
+
+.container-right .content-general .medio .boton input[type='submit']
+{
+	width: 100%;
+	height: 100%;
+	font-size: 10px;
+	padding: 0px;
+	border: 1px solid rgba(0,0,0,0.5);
+	border-radius: 3px;
+	text-align: center;
+	overflow: hidden;
+	background: none;
+	-webkit-transition:all 0.3s ease;
+	-moz-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	-o-transition:all 1s ease;	
+	font-family: "Roboto-Bold";
+	padding-top: 35%;
+}
+
+.container-right .content-general .medio .boton input[type='submit']:hover
+{
+	color: rgba(255,255,255,1);
+}
+
+
+.container-right .content-general .medio .boton input[type='button']
+{
+	width: 100%;
+	height: 100%;
+	font-size: 10px;
+	padding: 0px;
+	border: 1px solid rgba(0,0,0,0.5);
+	border-radius: 3px;
+	text-align: center;
+	overflow: hidden;
+	background: none;
+	-webkit-transition:all 0.3s ease;
+	-moz-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	-o-transition:all 1s ease;	
+	font-family: "Roboto-Bold";
+	padding-top: 35%;
+}
+
+.container-right .content-general .medio .boton input[type='button']:hover
+{
+	color: rgba(255,255,255,1);
+}
+
+
+.container-right .content-general .inferior
+{
+	width: 100%;
+	height: 83%;
+	margin:0px auto;
+}
+
+.container-right .content-general .inferior .content
+{
+	width: 98%;
+	height: 98%;
+	overflow: hidden;
+	margin:0px auto;
+}
+
+.container-right .content-general .inferior .content .deta
+{
+	width: 49.7%;
+	height: 5%;
+	float: left;
+	border-top:1px solid rgba(81,142,204,1);
+	border-left:1px solid rgba(81,142,204,1);
+	border-right:1px solid rgba(81,142,204,1);
+	font-size: 14px;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.container-right .content-general .inferior .content .deta2
+{
+	width: 49.7%;
+	height: 5%;
+	float: left;
+	border-top: 1px solid rgba(0,0,0,0.5);
+	border-left: 1px solid rgba(0,0,0,0.5);
+	border-right: 1px solid rgba(0,0,0,0.5);
+	border-bottom:1px solid rgba(81,142,204,1);
+	font-size: 14px;
+	border-radius: 10px 10px 0px 0px;
+	background: rgba(235,235,235,1);
+}
+
+/* CONTENIDO 1 */
+.container-right .content-general .inferior .content .contenido
+{
+	clear: both;
+	width: 99.6%;
+	height: 94%;
+	border-bottom:1px solid rgba(81,142,204,1);
+	border-left:1px solid rgba(81,142,204,1);
+	border-right:1px solid rgba(81,142,204,1);	
+	text-align: left;
+	font-size: 11px;
+	overflow: hidden;
+}
+
+.container-right .content-general .inferior .content .contenido fieldset
+{
+	width: 96%;
+	margin:0px auto;
+	color:rgba(0,0,0,0.7);
+	border: 1px solid rgba(0,0,0,0.5);
+	font-family: "Roboto-Bold";
+	overflow: hidden;
+}
+
+.container-right .content-general .inferior .content .contenido fieldset .form
+{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+
+.container-right .content-general .inferior .content .contenido fieldset .form td
+{
+	width: 10%;
+	height: 100%;
+}
+
+.container-right .content-general .inferior .content .contenido fieldset .form td #list
+{
+	width: 80%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.container-right .content-general .inferior .content .contenido fieldset .form td #list .image
+{
+	height: 90%;
+    width: 60%;
+    margin-left: 15%;
+}
+
+.container-right .content-general .inferior .content .contenido fieldset .form td input[type='submit']
+{
+	width: 100%;
+	height: 120%;
+	float: right;
+}
+
+.container-right .content-general .inferior .content .contenido .listado-view
+{
+	width: 97.7%;
+	height: 82%;
+	overflow: scroll;
+	margin: 0px auto;
+	border-bottom:1px solid rgba(0,0,0,0.5);
+	border-left:1px solid rgba(0,0,0,0.5);
+	border-right:1px solid rgba(0,0,0,0.5);
+	border-top:1px solid rgba(0,0,0,0.5);
+}
+
+.container-right .content-general .inferior .content .contenido .listado-view table
+{
+	min-width: 100%;
+	font-family: "Roboto-Regular" !important;
+	font-size: 11px;
+	
+}
+
+
+
+.container-right .content-general .inferior .content .contenido .listado-view table th
+{
+	text-align: center;
+	color:black;
+	border:1px solid rgba(0,0,0,0.2);
+	background: rgba(235,235,235,1);
+	padding: 0px 2% 0px 1%;
+	overflow: hidden;
+}
+
+.container-right .content-general .inferior .content .contenido .listado-view table .th
+{
+	text-align: left;
+	color:black;
+	background: rgba(235,235,235,1);
+	padding: 0px 0.1% 0px 1%;
+	overflow: hidden;
+}
+
+.container-right .content-general .inferior .content .contenido .listado-view table tr td
+{
+	text-align: left;
+	color:black;
+	border:1px solid rgba(0,0,0,0.2);
+	padding: 0px 2% 0px 1%;
+	overflow: hidden;
+}
+
+.container-right .content-general .inferior .content .contenido .listado-view table tr td a
+{
+	color: rgba(0,0,0,1);
+}
+
+
+/* PARA EL DIAGRAMA DE GANT */
+
+
+.container-right .content-general .inferior .content .contenido .dgantt
+{
+	width: 97.7%;
+	height: 82%;
+	overflow: scroll;
+	margin: 0px auto;
+	border-bottom:1px solid rgba(0,0,0,0.5);
+	border-left:1px solid rgba(0,0,0,0.5);
+	border-right:1px solid rgba(0,0,0,0.5);
+	border-top:1px solid rgba(0,0,0,0.5);
+}
+
+.container-right .content-general .inferior .content .contenido .dgantt table
+{
+	font-family: "Roboto-Regular" !important;
+	font-size: 11px;
+	
+}
+
+.container-right .content-general .inferior .content .contenido .dgantt table th
+{
+	text-align: center;
+	color:black;
+	border:1px solid rgba(0,0,0,0.2);
+	background: rgba(235,235,235,1);
+	padding: 0px 2% 0px 1%;
+	overflow: hidden;
+}
+
+.container-right .content-general .inferior .content .contenido .dgantt table .th
+{
+	text-align: left;
+	color:black;
+	background: rgba(235,235,235,1);
+	padding: 0px 0.1% 0px 1%;
+	overflow: hidden;
+}
+
+
+.container-right .content-general .inferior .content .contenido .dgantt .scroll2 table tr td {
+	padding: 0px !important;
+	color:rgba(0,51,102,1);
+	text-align: center !important;
+}
+
+
+.container-right .content-general .inferior .content .contenido .dgantt table tr td
+{
+	text-align: left;
+	border:1px solid rgba(0,0,0,0.2);
+	overflow: hidden;
+	padding: 0px !important;
+	color:rgba(0,51,102,1);
+}
+
+.container-right .content-general .inferior .content .contenido .dgantt table tr td a
+{
+	color: rgba(0,0,0,1);
+}
+
+
+/* CABECERAS DE CSS ADMINISTRACION */
+.container-right .content-general .inferior .content .contenido .header
+{
+	width: 97.7%;
+	margin: 0px auto;
+	border-bottom:0.5px solid rgba(0,0,0,0.5);
+	border-left:1px solid rgba(0,0,0,0.5);
+	border-right:1px solid rgba(0,0,0,0.5);
+	border-top:0.5px solid rgba(0,0,0,0.5);
+}
+
+.container-right .content-general .inferior .content .contenido .header table
+{
+	min-width: 100%;
+	font-family: "Roboto-Regular" !important;
+	font-size: 11px;
+	
+}
+
+
+.container-right .content-general .inferior .content .contenido .header table th
+{
+	text-align: center;
+	color:black;
+	border:1px solid rgba(0,0,0,0.2);
+	background: rgba(235,235,235,1);
+	padding: 0px 2% 0px 1%;
+	overflow: hidden;
+}
+
+.container-right .content-general .inferior .content .contenido .header table .th
+{
+	text-align: left;
+	color:black;
+	background: rgba(235,235,235,1);
+	padding: 0px 0.1% 0px 1%;
+	overflow: hidden;
+}
+
+.container-right .content-general .inferior .content .contenido .header table tr td
+{
+	text-align: left;
+	color:black;
+	border:1px solid rgba(0,0,0,0.2);
+	padding: 0px 2% 0px 1%;
+	overflow: hidden;
+}
+
+.container-right .content-general .inferior .content .contenido .header table tr td a
+{
+	color: rgba(0,0,0,1);
+}
+
+
+
+
+/* LISTADO VIEW 2 */
+
+.container-right .content-general .inferior .content .contenido .listado-view2
+{
+	width: 97.7%;
+	height: 82%;
+	overflow: scroll;
+	margin: 0px auto;
+	border-bottom:1px solid rgba(0,0,0,0.5);
+	border-left:1px solid rgba(0,0,0,0.5);
+	border-right:1px solid rgba(0,0,0,0.5);
+	border-top:1px solid rgba(0,0,0,0.5);
+}
+
+.container-right .content-general .inferior .content .contenido .listado-view2 table
+{
+	
+	font-family: "Roboto-Regular" !important;
+	font-size: 11px;
+	width: 300%;
+}
+
+.container-right .content-general .inferior .content .contenido .listado-view2 table th
+{
+	text-align: left;
+	color:black;
+	border:1px solid rgba(0,0,0,0.2);
+	background: rgba(235,235,235,1);
+	overflow: hidden;
+}
+
+.container-right .content-general .inferior .content .contenido .listado-view2 table .th
+{
+	text-align: left;
+	color:black;
+	background: rgba(235,235,235,1);
+	overflow: hidden;
+}
+
+.container-right .content-general .inferior .content .contenido .listado-view2 table tr td
+{
+	text-align: left;
+	color:black;
+	border:1px solid rgba(0,0,0,0.2);
+	overflow: hidden;
+}
+
+.container-right .content-general .inferior .content .contenido .listado-view2 table tr td a
+{
+	color: rgba(0,0,0,1);
+}
+
+/* LISTADO VIEW 3 */
+
+
+.container-right .content-general .inferior .content .contenido .listado-view3
+{
+	width: 97.7%;
+	height: 82%;
+	overflow: scroll;
+	margin: 0px auto;
+	border-bottom:1px solid rgba(0,0,0,0.5);
+	border-left:1px solid rgba(0,0,0,0.5);
+	border-right:1px solid rgba(0,0,0,0.5);
+	border-top:1px solid rgba(0,0,0,0.5);
+}
+
+.container-right .content-general .inferior .content .contenido .listado-view3 table
+{
+	min-width: 100%;
+	font-family: "Roboto-Regular" !important;
+	font-size: 11px;
+	
+}
+
+
+
+.container-right .content-general .inferior .content .contenido .listado-view3 table th
+{
+	text-align: left;
+	color:black;
+	border:1px solid rgba(0,0,0,0.2);
+	background: rgba(235,235,235,1);
+	padding: 0px 2% 0px 1%;
+	overflow: hidden;
+}
+
+.container-right .content-general .inferior .content .contenido .listado-view3 table .th
+{
+	text-align: left;
+	color:black;
+	
+	background: rgba(235,235,235,1);
+	padding: 0px 0.1% 0px 1%;
+	overflow: hidden;
+}
+
+.container-right .content-general .inferior .content .contenido .listado-view3 table tr td
+{
+	text-align: left;
+	color:black;
+	border:1px solid rgba(0,0,0,0.2);
+	padding: 0px 2% 0px 1%;
+	overflow: hidden;
+}
+
+.container-right .content-general .inferior .content .contenido .listado-view3 table tr td a
+{
+	color: rgba(0,0,0,1);
+}
+
+
+/* CONTENIDO 2 */
+
+.container-right .content-general .inferior .content .contenido2
+{
+	clear: both;
+	width: 99.6%;
+	height: 94%;
+	border-bottom:1px solid rgba(81,142,204,1);
+	border-left:1px solid rgba(81,142,204,1);
+	border-right:1px solid rgba(81,142,204,1);	
+	text-align: left;
+	font-size: 11px;
+	display: none;
+}
+
+.container-right .content-general .inferior .content .contenido2 fieldset
+{
+	width: 96%;
+	height: 94%;
+	margin:0px auto;
+	color:rgba(0,0,0,0.7);
+	border: 1px solid rgba(0,0,0,0.5);
+	font-family: "Roboto-Bold";
+}
+
+.container-right .content-general .inferior .content .contenido2 fieldset .form
+{
+	width: 96%;
+	height: 90%;
+	margin: 0px auto;
+	margin-top: 2.5%;
+}
+
+.container-right .content-general .inferior .content .contenido2 fieldset .form td
+{
+	width: 7%;
+	padding: 0.5% 0% 0.5% 0%;
+}
+
+.container-right .content-general .inferior .content .contenido2 fieldset .form td #list
+{
+	width: 80%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.container-right .content-general .inferior .content .contenido2 fieldset .form td #list .image
+{
+	height: 90%;
+    width: 60%;
+    margin-left: 15%;
+}
+
+.container-right .content-general .inferior .content .contenido2 fieldset .form td input[type='text']
+{
+	width: 75%;
+	padding: 1% 0% 1% 0%;
+	border-radius: 2px;
+}
+
+
+.container-right .content-general .inferior .content .contenido2 fieldset .form .td
+{
+	width: 13%;
+	height: 5%;
+}
+
+.container-right .content-general .inferior .content .contenido2 fieldset .form .td .caja1
+{
+	width: 20%;
+	float: left;
+}
+
+.container-right .content-general .inferior .content .contenido2 fieldset .form .td .caja2
+{
+	width: 50%;
+	float: left;
+	margin-left: 2%;
+	background: rgba(233,191,89,0.3);
+}
+
+.container-right .content-general .inferior .content .contenido2 fieldset .form .td .caja3
+{
+	width: 75%;
+	float: left;
+	background: rgba(233,191,89,0.3);
+}
+
+.container-right .content-general .inferior .content .contenido2 fieldset .form .td .caja4
+{
+	width: 20%;
+	float: left;
+	background: rgba(233,191,89,0.3);
+}
+
+/* CONTENIDO 3 */
+
+.container-right .content-general .inferior .content .contenido3
+{
+	clear: both;
+	width: 99.6%;
+	height: 94%;
+	border-bottom:1px solid rgba(81,142,204,1);
+	border-left:1px solid rgba(81,142,204,1);
+	border-right:1px solid rgba(81,142,204,1);	
+	text-align: left;
+	font-size: 11px;
+	display: none;
+}
+
+.container-right .content-general .inferior .content .contenido3 fieldset
+{
+	width: 96%;
+	height: 96%;
+	margin:0px auto;
+	color:rgba(0,0,0,0.7);
+	border: 1px solid rgba(0,0,0,0.5);
+	font-family: "Roboto-Bold";
+}
+
+.container-right .content-general .inferior .content .contenido3 fieldset .form
+{
+	width: 96%;
+	height: 90%;
+	margin: 0px auto;
+	margin-top: 2.5%;
+}
+
+.container-right .content-general .inferior .content .contenido3 fieldset .form td
+{
+	width: 7%;
+	padding: 0.5% 0% 0.5% 0%;
+}
+
+.container-right .content-general .inferior .content .contenido3 fieldset .form td #list
+{
+	width: 80%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.container-right .content-general .inferior .content .contenido3 fieldset .form td #list .image
+{
+	height: 90%;
+    width: 60%;
+    margin-left: 15%;
+}
+
+.container-right .content-general .inferior .content .contenido3 fieldset .form td input[type='text']
+{
+	width: 75%;
+}
+
+
+.container-right .content-general .inferior .content .contenido3 fieldset .form .td
+{
+	width: 13%;
+	height: 5%;
+}
+
+.container-right .content-general .inferior .content .contenido3 fieldset .form .td .caja1
+{
+	width: 20%;
+	float: left;
+}
+
+.container-right .content-general .inferior .content .contenido3 fieldset .form .td .caja2
+{
+	width: 50%;
+	float: left;
+	margin-left: 2%;
+	background: rgba(233,191,89,0.3);
+}
+
+.container-right .content-general .inferior .content .contenido3 fieldset .form .td .caja3
+{
+	width: 75%;
+	float: left;
+	margin-left: 2%;
+	background: rgba(233,191,89,0.3);
+}
+
+.container-right .content-general .inferior .content .contenido3 fieldset .form .td .caja4
+{
+	width: 20%;
+	float: left;
+	background: rgba(233,191,89,0.3);
+}
+
+/* VISTA DE ERROR */
+
+.content-general .error
+{
+	width: 95%;
+	height: 90%;
+	border-radius: 2%;
+	margin-top: 2% !important;
+	margin:0px auto;
+	border:1px solid rgba(199,199,199,1);
+	background: rgba(235,235,235,0.5);
+	overflow: hidden;
+}
+
+.content-general .error .alerta
+{
+	width: 100%;
+	height: 50%;
+	margin:0px auto;
+	overflow: hidden;
+}
+
+.content-general .error .alerta .imagen
+{
+	width: 40%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+.content-general .error .alerta .imagen img
+{
+	width: 50%;
+	height: 60%;
+	margin-left: 35%;
+	margin-top: 25%;
+}
+
+.content-general .error .alerta .descri
+{
+	width: 60%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	font-size: 50px;
+	text-align: left;
+	padding-top: 10%;
+	font-family: "RobotoCondensed-Bold";
+}
+
+.content-general .error .deta
+{
+	width: 100%;
+	height: 50%;
+	margin:0px auto;
+	overflow: hidden;
+	padding-top: 2%;
+	color:rgba(0,0,0,0.5);
+	font-size: 20px;
+}
+
+.mensajeria
+{
+	width: 180px;
+	height: 25px;
+	position: fixed;
+	background: rgba(255,255,255,1);
+	border-radius:10px;
+	border:1px solid rgba(255,255,255,0.8);
+	bottom: 10px;
+	z-index: 2;
+	right: 5px;
+	
+	text-align: center;
+	font-size: 12px;
+	color:rgba(255,255,255,1);
+	box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+	overflow: hidden;
+}
+
+.mensajeria .cabecera
+{
+	width: 180px;
+	height: 25px;
+	background: #fa6300;
+	top:0px;
+	padding-top: 3px;
+}
+
+.mensajeria .contenido
+{
+	width: 100%;
+	height: 80%;
+	background: rgba(255,255,255,1);
+	overflow: hidden;
+}
+
+.mensajeria .contenido form
+{
+	width: 250px;
+	height: 90%;
+	text-align: center;
+	color:rgba(0,0,0,0.7);
+	margin:0px auto;
+}
+
+.mensajeria .contenido form td
+{
+	width: 250px;
+	height: 100%;
+	text-align: center;
+	text-align: left;
+	padding-left: 2%;
+}
+
+.mensajeria .contenido form td input[type='text']
+{
+	padding-left: 2%;
+	text-align: center;
+	border-radius:5px;
+	width: 95%;
+	height: 100%;
+}
+
+
+.mensajeria .contenido form td input[type='button']
+{
+	margin-left: 35%;
+}
+
+.mensajeria .contenido form td textarea
+{
+	border-radius:5px;
+	width: 95%;
+}
+
+.tabla{
+	width:100%; 
+	height:35%; 
+	float:left;
+	overflow:hidden;
+}
+
+.tabla .autoriza{
+	width:32%;
+	height:99%;
+	float: left;
+	margin-left: 20px;
+	border-radius:10px;
+	border:1px solid rgba(199,199,199,1) !important;
+	margin-left: 3px;
+	overflow: :hidden;
+	float: left;
+}
+
+.tabla .autoriza .descrip{
+	width:100%;
+	height:15%;
+	text-align: center;
+	background:rgba(0,51,102,1);
+	color:rgba(255,255,255,1);
+	font-family: "Roboto-Bold";
+	overflow: hidden;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.tabla .autoriza .arriba{
+	width:100%; 
+	height:55%; 
+	text-align:center;
+	overflow: hidden;
+}
+
+.tabla .autoriza .arriba .img{
+	width:100%; 
+	height:90%;
+}
+
+.tabla .autoriza .arriba .img img{
+	display: none;
+}
+
+.tabla .autoriza .abajo{
+	width:100%;
+	height:25%;
+	text-align:center;
+}
+
+#bloque
+{
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    overflow:hidden;
+    padding:0px;
+    margin:0px;
+    background:rgba(0,0,0,0.3);
+    z-index:1;
+    display:none;
+}
+
+.seteo_caja{
+	text-align: right !important;
+}
+
+
+
+/* LISTADO MEDIANTE AJAX */
+
+.list_grupo
+{
+	margin-top:5%; 
+	width:100%; 
+	height:50%; 
+	margin:0px auto;
+	overflow: scroll;
+	overflow-x: auto;
+}
+
+.list_grupo table
+{
+	min-width: 100%;
+	font-family: "Roboto-Regular" !important;
+	font-size: 11px;
+}
+
+
+
+.list_grupo table th
+{
+	text-align: center;
+	color:black;
+	border:1px solid rgba(0,0,0,0.2);
+	background: rgba(235,235,235,1);
+	padding: 0px 2% 0px 1%;
+	overflow: hidden;
+}
+
+.list_grupo table .th
+{
+	text-align: left;
+	color:black;
+	width: 10px !important;
+	background: rgba(235,235,235,1);
+	padding: 0px 0.1% 0px 1%;
+	overflow: hidden;
+}
+
+.list_grupo table tr td
+{
+	text-align: left;
+	color:black;
+	border:1px solid rgba(0,0,0,0.2);
+	padding: 0px 2% 0px 1%;
+	overflow: hidden;
+}
+
+
+/* MENU AL SER PEQUEÑO */
+.menu_min{
+	margin-top: 10px;
+	margin-left: 3%;
+	width: 50px;
+	height: 50px;
+	border-radius:5px;
+	background:rgba(0,0,0,0.6);
+	background-image: url('../themes/images/menu_p.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 90% 90%;
+	overflow: hidden;
+	-webkit-transition:all 1s ease;
+	position: absolute;
+	display:none;
+}
+
+.menu_min:hover{
+	box-shadow:0px 0px 5px rgba(255,255,255,0.8);
+	cursor: pointer;
+	background:rgba(0,0,0,0.8);
+	background-image: url('../themes/images/menu_p.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 90% 90%;
+}
+
+
+
+
+@media screen and (min-width: 180px) and (max-width: 350px){
+	body{ background:rgba(0,0,0,0.8); color:white; text-align: center; margin-top:30%; overflow:hidden; font-size:20px;}
+	body:after{ content: " Maximo Permitido "; }
+	footer{ display: none !important; }
+	header{ display: none !important; }
+	.container-left{ display: none !important; }
+	.container-right{ display: none !important; }
+	.container-right-2{ display: none !important; }
+	.mensajeria{ margin:0px auto !important; }
+}
+
+@media screen and (min-width: 350px) and (max-width: 700px){
+	header {background:rgba(0,51,102,1) !important;}
+	header .header-left{ display:none !important; }
+	header .header-right{ width:40% !important; height:100% !important; font-size: 12px !important; }
+	header .borde{ display: none !important; }
+	.container-left{ display: none !important; } 
+	.container-right{ width:100%; }
+	.container-right-2{ display: none !important; }
+	.mensajeria{ display:none !important; }
+	.menu_min { display:block !important; }
+}
+
+
+
+
+
+/*
+@media screen and (min-width: 1100px) and (max-width:1200px){
+    .container-left{ height: 688px;	}
+	.container-right{ height: 688px; }
+	.container-right .content-general .superior{ height:5%; }
+	.container-right .content-general .medio { height:7%; }
+	.container-right .content-general .inferior { height:88%;  }
+	.container-right-2{	height: 687px;}
+	.container-right-2 .opt .circle { height:65%; width:95%;}	
+	.container-right .content-general .inferior .content .contenido3 fieldset #list2 #imagen {height:35% !important;}
+}
+
+@media screen and (min-width: 1200px) and (max-width:1280px){
+    .container-left{ height: 770px;	}
+	.container-right{ height: 770px; }
+	.container-right .content-general .superior{ height:5%; }
+	.container-right .content-general .medio { height:7%; }
+	.container-right .content-general .inferior { height:88%;  }
+	.container-right-2{	height: 770px;}
+	.container-right-2 .opt .circle { height:65%; width:95%;}	
+	.container-right .content-general .inferior .content .contenido3 fieldset #list2 #imagen {height:35% !important;}
+}
+
+@media screen and (min-width: 1900px) and (max-width:1950px){
+ 	.container-left{ height: 828px;	}
+	.container-right{ height: 828px; }
+	.container-right-2{	height: 828px;}
+}
+*/
+
